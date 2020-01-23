@@ -1,0 +1,538 @@
+[
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\roboto_calendar_week_6.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\roboto_calendar_week_6.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\roboto_calendar_date_title_layout.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\roboto_calendar_date_title_layout.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\195ff64ea4703e329747f342127f4331eb5b7d95\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_log.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_log.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_flexibility.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_flexibility.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\dialog_email_verification.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\dialog_email_verification.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\my_activity_log_board_child.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\my_activity_log_board_child.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\calendar_item.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\calendar_item.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\roboto_calendar_week_5.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\roboto_calendar_week_5.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\a5d5fadf08802db27e2d07bc09af3bbc49c18e6f\\output\\res\\layout\\place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\roboto_school_name_4.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\roboto_school_name_4.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\195ff64ea4703e329747f342127f4331eb5b7d95\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_forgot_password.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\195ff64ea4703e329747f342127f4331eb5b7d95\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\my_activity_log.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\my_activity_log.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\aactivity_strength.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\aactivity_strength.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_count.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_count.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\dart_board.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\dart_board.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\roboto_school_name_6.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\roboto_school_name_6.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\roboto_school_name_3.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\roboto_school_name_3.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\school_bar.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\school_bar.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\roboto_calendar_picker_layout.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\roboto_calendar_picker_layout.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\test_item.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\test_item.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\test_status_report_list_item.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\test_status_report_list_item.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\195ff64ea4703e329747f342127f4331eb5b7d95\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\test_screen.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\test_screen.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_options.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_options.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_hand_eye_coordination.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_hand_eye_coordination.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\195ff64ea4703e329747f342127f4331eb5b7d95\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\log_spinner_item.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\log_spinner_item.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\195ff64ea4703e329747f342127f4331eb5b7d95\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\my_activity_log_item.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\my_activity_log_item.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_weight.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_weight.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\roboto_calendar_week_3.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\roboto_calendar_week_3.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\school_item.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\school_item.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\make_dart.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\make_dart.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_agility.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_agility.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_bmi.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_bmi.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\roboto_calendar_week_days_layout.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\roboto_calendar_week_days_layout.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\195ff64ea4703e329747f342127f4331eb5b7d95\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\dialog_otp.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\dialog_otp.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_take_test.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_take_test.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\spinner_item.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\tool_bar.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\tool_bar.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\roboto_calendar_week_4.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\roboto_calendar_week_4.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_list_item.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\14a37e2e6d044ccaf38833d9445e059f71921f57\\output\\res\\layout\\mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\195ff64ea4703e329747f342127f4331eb5b7d95\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_dashboard.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_test_list.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_test_list.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\school_screen.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\school_screen.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\listitem_school.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\listitem_school.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_scan.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_scan.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\simple_spinner_dropdown_item.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\log_child.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\log_child.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\a5d5fadf08802db27e2d07bc09af3bbc49c18e6f\\output\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\a5d5fadf08802db27e2d07bc09af3bbc49c18e6f\\output\\res\\layout\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\roboto_calendar_week_1.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\roboto_calendar_week_1.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\test_status_report_screen.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\test_status_report_screen.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\finger_print_dialog.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\finger_print_dialog.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\test_status_screen.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\test_status_screen.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_profile.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\roboto_school_name_1.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\roboto_school_name_1.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\a5d5fadf08802db27e2d07bc09af3bbc49c18e6f\\output\\res\\layout\\place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\spinner_dropdown_item.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_show_sub_test.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_show_sub_test.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\listitem_subcategory.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\listitem_subcategory.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\195ff64ea4703e329747f342127f4331eb5b7d95\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\roboto_school_name_2.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\roboto_school_name_2.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_chooser_dialog.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\14a37e2e6d044ccaf38833d9445e059f71921f57\\output\\res\\layout\\mr_media_route_chooser_dialog.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_view_attendance.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_view_attendance.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\195ff64ea4703e329747f342127f4331eb5b7d95\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\195ff64ea4703e329747f342127f4331eb5b7d95\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_height.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_height.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\log_group.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\log_group.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_splash_acreen.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_splash_acreen.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\my_activity_log_board.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\my_activity_log_board.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_active_connect.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_active_connect.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\195ff64ea4703e329747f342127f4331eb5b7d95\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\login_screen.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\login_screen.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\my_activity_log_board_group.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\my_activity_log_board_group.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_controller_material_dialog_b.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\14a37e2e6d044ccaf38833d9445e059f71921f57\\output\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_fingerprint.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_fingerprint.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_school_listitem.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_school_listitem.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\roboto_calendar_week_2.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\roboto_calendar_week_2.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\test_1.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\test_1.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\test_status_report_element.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\test_status_report_element.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\195ff64ea4703e329747f342127f4331eb5b7d95\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\options_layout.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\options_layout.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\test_status_report_item.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\test_status_report_item.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\simple_spinner_item.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\simple_spinner_item.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\roboto_school_name_5.xml",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\layout\\roboto_school_name_5.xml"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\195ff64ea4703e329747f342127f4331eb5b7d95\\output\\res\\layout\\design_layout_tab_text.xml"
+    }
+]

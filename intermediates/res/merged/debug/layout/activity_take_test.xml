@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:visibility="visible"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/sync_img"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/welcome_student_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Welcome Santhosh"
+                        android:textSize="@dimen/small_text_size"
+                        android:textColor="#B8D3E4"/>
+
+                    <TextView
+                        android:id="@+id/school_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       android:textSize="@dimen/text_size"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:drawableRight="@android:drawable/arrow_down_float"
+                        android:drawablePadding="6dp"
+                        android:textColor="@color/white"
+                        android:text="Rabindranath public sr sec school"/>
+                </LinearLayout>
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/sync_img"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_toLeftOf="@+id/dashboard_img"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginRight="12dp"-->
+                    <!--android:src="@drawable/sink_i"/>-->
+
+
+
+                <ImageView
+                    android:id="@+id/dashboard_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/ic_dashboard"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/school_big_i" />
+
+            <TextView
+                android:id="@+id/school_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Rabindranath World School"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/take_test_btn"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/gradient"
+                android:text="Take Test"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/view_report_btn"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/white_green_border_button"
+                android:textColor="@color/green"
+                android:text="View Report (Term 1)"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/sync_data_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sync Data"
+                android:layout_marginTop="30dp"
+                android:textColor="#64A245"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+
+      </LinearLayout>
+
+    </LinearLayout>

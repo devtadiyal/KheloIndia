@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include
+        layout="@layout/tool_bar" />
+
+    <include
+        layout="@layout/school_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/rectangle">
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/class_spin"
+
+
+       />
+
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rectangle">
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/test_spin"
+            />
+
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/rectangle">
+
+<Button
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="0.5"
+    android:background="@null"
+    android:textColor="@color/grey"
+    android:textSize="20sp"
+    android:text="All"
+    android:textAllCaps="false"
+    android:id="@+id/all_btn"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.25"
+        android:background="@null"
+        android:textColor="@color/grey"
+        android:textSize="20sp"
+        android:text="Incomplete"
+        android:textAllCaps="false"
+        android:id="@+id/incomplete_btn"/>
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.25"
+        android:background="@null"
+        android:textColor="@color/grey"
+        android:textSize="20sp"
+        android:text="Complete"
+        android:textAllCaps="false"
+        android:id="@+id/complete_btn"/>
+</LinearLayout>
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:textColor="@color/white"
+        android:text="Search"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/search_btn"/>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:id="@+id/csv_btn"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_green_border_button"
+        android:textColor="@color/green"
+        android:text="Email Report"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+
+</LinearLayout>

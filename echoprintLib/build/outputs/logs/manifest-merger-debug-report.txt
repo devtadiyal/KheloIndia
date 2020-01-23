@@ -1,0 +1,43 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml:2:1-12:12
+	package
+		ADDED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml:4:7-40
+		INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml
+		INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml:6:7-32
+		INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml
+		INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml:5:7-30
+		INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml
+		INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml
+application
+ADDED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml:8:5-10:19
+	android:label
+		ADDED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml:8:53-85
+	android:icon
+		ADDED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml:8:18-52
+uses-sdk
+INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml
+INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml
+INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml
+INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml
+		ADDED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml
+		INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml
+		ADDED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml
+		INJECTED from E:\Android_Project\kheloIndia_fitness\echoprintLib\src\main\AndroidManifest.xml

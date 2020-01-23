@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:weightSum="7">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:visibility="invisible"
+        android:tag="schoolContainer22">
+
+        <fitness365.com.fitness365.robotocalendar.font.RobotoTextView
+            android:id="@+id/school_tv_22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:minHeight="@dimen/dayOfMonthMinHeight"
+            android:minWidth="@dimen/dayOfMonthMinWidth"
+            android:paddingBottom="@dimen/dayOfMonthPaddingBottom"
+            android:tag="school_tv_22"
+            android:text="APS"
+            android:singleLine="true"
+            android:textSize="10dp"
+            custom:font="roboto_light" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:visibility="invisible"
+        android:tag="schoolContainer23">
+
+        <fitness365.com.fitness365.robotocalendar.font.RobotoTextView
+            android:id="@+id/school_tv_23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:minHeight="@dimen/dayOfMonthMinHeight"
+            android:minWidth="@dimen/dayOfMonthMinWidth"
+            android:paddingBottom="@dimen/dayOfMonthPaddingBottom"
+            android:tag="school_tv_23"
+            android:text="APS"
+            android:singleLine="true"
+            android:textSize="10dp"
+            custom:font="roboto_light" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:visibility="invisible"
+        android:tag="schoolContainer24">
+
+        <fitness365.com.fitness365.robotocalendar.font.RobotoTextView
+            android:id="@+id/school_tv_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:minHeight="@dimen/dayOfMonthMinHeight"
+            android:minWidth="@dimen/dayOfMonthMinWidth"
+            android:paddingBottom="@dimen/dayOfMonthPaddingBottom"
+            android:tag="school_tv_24"
+            android:text="APS"
+            android:singleLine="true"
+            android:textSize="10dp"
+            custom:font="roboto_light" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:visibility="invisible"
+        android:tag="schoolContainer25">
+
+        <fitness365.com.fitness365.robotocalendar.font.RobotoTextView
+            android:id="@+id/school_tv_25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:minHeight="@dimen/dayOfMonthMinHeight"
+            android:minWidth="@dimen/dayOfMonthMinWidth"
+            android:paddingBottom="@dimen/dayOfMonthPaddingBottom"
+            android:tag="school_tv_25"
+            android:text="APS"
+            android:singleLine="true"
+            android:textSize="10dp"
+            custom:font="roboto_light" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:visibility="invisible"
+        android:tag="schoolContainer26">
+
+        <fitness365.com.fitness365.robotocalendar.font.RobotoTextView
+            android:id="@+id/school_tv_26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:minHeight="@dimen/dayOfMonthMinHeight"
+            android:minWidth="@dimen/dayOfMonthMinWidth"
+            android:paddingBottom="@dimen/dayOfMonthPaddingBottom"
+            android:tag="school_tv_26"
+            android:text="APS"
+            android:singleLine="true"
+            android:textSize="10dp"
+            custom:font="roboto_light" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:visibility="invisible"
+        android:tag="schoolContainer27">
+
+        <fitness365.com.fitness365.robotocalendar.font.RobotoTextView
+            android:id="@+id/school_tv_27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:minHeight="@dimen/dayOfMonthMinHeight"
+            android:minWidth="@dimen/dayOfMonthMinWidth"
+            android:paddingBottom="@dimen/dayOfMonthPaddingBottom"
+            android:tag="school_tv_27"
+            android:text="APS"
+            android:singleLine="true"
+            android:textSize="10dp"
+            custom:font="roboto_light" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:visibility="invisible"
+        android:tag="schoolContainer28">
+
+        <fitness365.com.fitness365.robotocalendar.font.RobotoTextView
+            android:id="@+id/school_tv_28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:minHeight="@dimen/dayOfMonthMinHeight"
+            android:minWidth="@dimen/dayOfMonthMinWidth"
+            android:paddingBottom="@dimen/dayOfMonthPaddingBottom"
+            android:tag="school_tv_28"
+            android:text="APS"
+            android:singleLine="true"
+            android:textSize="10dp"
+            custom:font="roboto_light" />
+
+    </RelativeLayout>
+
+</LinearLayout>

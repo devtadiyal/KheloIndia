@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/fitness365_logo" />
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="30dp"
+       android:layout_gravity="center"
+       android:background="@drawable/rectangle_curved"
+       android:text="DART"
+       android:textSize="20sp"
+       android:paddingLeft="20dp"
+       android:paddingRight="20dp"
+       android:paddingTop="5dp"
+       android:paddingBottom="5dp"
+       android:textColor="@color/grey"/>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/user_name_til"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:hint="Username"
+            >
+
+            <EditText
+                android:id="@+id/user_name_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:drawableLeft="@drawable/ic_user"
+                android:drawablePadding="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+               />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/password_til"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:hint="Password">
+
+            <EditText
+                android:id="@+id/password_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawablePadding="10dp"
+                android:inputType="textPassword"
+                android:maxLength="15"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="35dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="10dp"
+    android:text="Remember Me"
+    android:textSize="18sp"
+    android:id="@+id/remember_cbx"
+    android:textColor="@color/grey"
+    android:padding="10dp"
+    android:button="@drawable/remember_check"
+    />
+
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gradient"
+            android:text="LOGIN"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FORGOT PASSWORD?"
+        android:textSize="20sp"
+        android:textColor="@color/green"
+        android:gravity="center"
+        android:id="@+id/forgot_password_tv"
+        />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

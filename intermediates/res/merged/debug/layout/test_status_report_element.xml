@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/rectangle_curved_green">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="Agility"
+        android:paddingLeft="5dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/test_txt"/>
+
+        <ImageView
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:src="@android:drawable/ic_menu_close_clear_cancel"
+      android:id="@+id/cancel_btn"
+      android:padding="5dp"
+      android:layout_toRightOf="@+id/test_txt"
+      />
+</RelativeLayout>
+</LinearLayout>

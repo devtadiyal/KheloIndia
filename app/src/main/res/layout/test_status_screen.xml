@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:visibility="visible"
+            app:titleTextAppearance="@style/Toolbar.TitleText"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toolbar Title"
+                android:id="@+id/toolbar_title"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_file_download"
+                    android:layout_marginRight="20dp"
+                    android:layout_centerVertical="true"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="6dp"
+        >
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imageView"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/header_school_i" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/school_tv"
+            android:layout_marginLeft="10dp"
+            android:text="Rabindranth world school"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_grey"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/rectangle">
+    <kheloindia.com.assessment.util.MultiSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/class_spin"
+        android:paddingLeft="12dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingRight="15dp"
+       />
+
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rectangle">
+
+        <kheloindia.com.assessment.util.MultiSpinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/test_spin"
+            android:paddingLeft="12dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:paddingRight="15dp"
+           />
+
+
+    </RelativeLayout>
+
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:layout_marginRight="20dp"-->
+    <!--android:background="@drawable/rectangle">-->
+
+<!--<Button-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1.25"-->
+    <!--android:background="@null"-->
+    <!--android:textColor="@color/grey"-->
+    <!--android:text="All"-->
+    <!--android:textAllCaps="false"-->
+    <!--android:id="@+id/all_btn"/>-->
+
+    <!--<Button-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1.25"-->
+        <!--android:background="@null"-->
+        <!--android:textColor="@color/grey"-->
+        <!--android:text="Incomplete"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:id="@+id/incomplete_btn"/>-->
+
+
+    <!--<Button-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1.25"-->
+        <!--android:background="@null"-->
+        <!--android:textColor="@color/grey"-->
+        <!--android:text="Complete"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:id="@+id/complete_btn"/>-->
+<!--</LinearLayout>-->
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/status_rg_grp">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/all_btn"
+            android:text="All"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_weight="0.25"
+            />
+
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Incomplete"
+            android:textColor="@color/pale_grey"
+            android:id="@+id/incomplete_btn"
+            android:textSize="15sp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="0.4"
+            />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Complete"
+            android:textColor="@color/pale_grey"
+            android:id="@+id/complete_bn"
+            android:textSize="15sp"
+            android:layout_weight="0.35"
+            />
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/color_primary_border_button"
+        android:textColor="@color/colorAccent"
+        android:text="View Report"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/search_btn"
+        android:stateListAnimator="@null"
+      />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Download Report for Self Use/Sharing"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/csv_btn"
+        android:layout_height="45dp"
+        android:background="@drawable/color_accent_border_button"
+        android:textColor="@color/colorAccent"
+        android:text="Download"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:stateListAnimator="@null"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/export_data_label"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:drawableRight="@drawable/info_i"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:text="Send Test Data to Principal for Manual Upload  "/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/download_xls_btn"
+        android:layout_height="45dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/white"
+        android:text="Email to Principal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:stateListAnimator="@null"/>
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:visibility="visible"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/test_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Agility"
+                    android:textSize="@dimen/small_text_size"
+                    android:textColor="#B8D3E4"/>
+
+                <TextView
+                    android:id="@+id/sub_test_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Illinois Agility Test"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size" />
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <SurfaceView
+                android:id="@+id/cameraView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <RelativeLayout
+                        android:id="@+id/layout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="30dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp">
+
+                        <TextView
+                            android:id="@+id/text1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="Enter Student Code" />
+
+                        <EditText
+                            android:id="@+id/code_edt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_toLeftOf="@+id/go_btn"
+                            android:layout_below="@+id/text1"
+                            android:hint="Code here"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:singleLine="true"
+                            android:inputType="number"
+                            android:maxLength="10"
+                            android:textSize="20dp" />
+
+                        <Button
+                            android:id="@+id/go_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="GO"
+                            android:textSize="@dimen/headings_size"
+                            android:background="@drawable/white_green_border_button"
+                            android:textColor="@color/colorAccent" />
+
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/text3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="40dp"
+                            android:text="Scan Student QR Code"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/headings_size" />
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginTop="30dp"
+                            android:src="@drawable/qr_code_window" />
+
+
+                        <TextView
+                            android:id="@+id/change_test_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:text="Change Test"
+                            android:textAllCaps="true"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="@dimen/headings_size" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="@dimen/fab_margin"
+                    android:clickable="true"
+                    android:visibility="visible"
+                    app:backgroundTint="@color/grey"
+                    app:layout_anchor="@id/layout1"
+                    app:layout_anchorGravity="bottom|center_horizontal|center" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="6dp"
+                    android:text="OR"
+                    android:textColor="#cc000000"
+                    android:textSize="15dp"
+                    app:layout_anchor="@id/layout1"
+                    app:layout_anchorGravity="bottom|center_horizontal|center" />
+
+            </android.support.design.widget.CoordinatorLayout>
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                android:visibility="visible"
+                app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/test_name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Agility"
+                        android:textSize="@dimen/small_text_size"
+                        android:textColor="#B8D3E4"/>
+
+                    <TextView
+                        android:id="@+id/sub_test_name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Illinois Agility Test"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size" />
+                </LinearLayout>
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+
+                <RelativeLayout
+                    android:id="@+id/layout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="20dp">
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:text="Enter Student Code" />
+
+                    <EditText
+                        android:id="@+id/code_edt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:backgroundTint="@color/grey"
+                        android:layout_toLeftOf="@+id/go_btn"
+                        android:layout_below="@+id/text1"
+                        android:hint="Code here"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:singleLine="true"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/go_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/white_green_border_button"
+                        android:text="GO"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/headings_size" />
+
+
+                </RelativeLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/frame_layout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                        <SurfaceView
+                            android:id="@+id/cameraView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:id="@+id/layout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/text3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="40dp"
+                            android:text="Scan Student QR Code"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/headings_size" />
+
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginTop="30dp"
+                            android:src="@drawable/qr_code_window" />
+
+                        <TextView
+                            android:id="@+id/change_test_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:text="Change Test"
+                            android:textAllCaps="true"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="@dimen/headings_size" />
+
+
+                    </LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+
+
+
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="@dimen/fab_margin"
+                android:clickable="true"
+                android:visibility="visible"
+                app:backgroundTint="@color/grey"
+                app:layout_anchor="@id/layout1"
+                app:layout_anchorGravity="bottom|center_horizontal|center" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="6dp"
+                android:text="OR"
+                android:textColor="#cc000000"
+                android:textSize="15dp"
+                app:layout_anchor="@id/layout1"
+                app:layout_anchorGravity="bottom|center_horizontal|center" />
+        </android.support.design.widget.CoordinatorLayout>
+
+
+    </LinearLayout>
+    -->

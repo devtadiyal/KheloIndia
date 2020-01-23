@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="-15dp"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ministry_of_youth_i"
+            android:id="@+id/khelo_logo_iv"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="-20dp"
+
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/kheloindia_i"
+            android:id="@+id/gov_logo_iv"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="-20dp"
+
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/sai_i"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="-20dp"
+
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerInParent="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pref_lan"
+            android:textColor="@color/white"
+            android:id="@+id/preferred_lang_tv"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+
+            />
+
+        <View
+            android:layout_width="220dp"
+            android:layout_height="1dp"
+            android:background="@color/white"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="20dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ENGLISH"
+                android:textColor="@color/white"
+                android:id="@+id/eng_cb"
+                android:layoutDirection="rtl"
+                android:textStyle="bold"
+                android:button="@drawable/selected_i"
+                android:paddingRight="10dp"
+                android:textSize="20sp"
+
+              />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="@string/hindi"
+                android:textColor="@color/white"
+                android:id="@+id/hin_cb"
+                android:textStyle="bold"
+                android:button="@drawable/selected_i"
+                android:paddingRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+               />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/next_btn"
+        android:text="@string/next"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@color/colorAccent"
+        android:stateListAnimator="@null"/>
+
+</LinearLayout>
+</RelativeLayout>

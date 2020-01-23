@@ -1,0 +1,399 @@
+# view res/layout/activity_main.xml #generated:2
+-keep class android.support.constraint.ConstraintLayout { <init>(...); }
+
+# view res/layout/design_bottom_navigation_item.xml #generated:26
+-keep class android.support.design.internal.BaselineLayout { <init>(...); }
+
+# view res/layout/design_navigation_item.xml #generated:17
+-keep class android.support.design.internal.NavigationMenuItemView { <init>(...); }
+
+# view res/layout/design_navigation_menu.xml #generated:17
+-keep class android.support.design.internal.NavigationMenuView { <init>(...); }
+
+# view res/layout/design_layout_snackbar_include.xml #generated:18
+-keep class android.support.design.internal.SnackbarContentLayout { <init>(...); }
+
+# view res/layout/aactivity_strength.xml #generated:8
+# view res/layout/activity_agility.xml #generated:9
+# view res/layout/activity_bmi.xml #generated:9
+# view res/layout/activity_count.xml #generated:8
+# view res/layout/activity_dashboard.xml #generated:9
+# view res/layout/activity_flexibility.xml #generated:8
+# view res/layout/activity_hand_eye_coordination.xml #generated:8
+# view res/layout/activity_height.xml #generated:9
+# view res/layout/activity_home.xml #generated:9
+# view res/layout/activity_log.xml #generated:9
+# view res/layout/activity_options.xml #generated:8
+# view res/layout/activity_profile.xml #generated:9
+# view res/layout/activity_scan.xml #generated:9
+# view res/layout/activity_show_sub_test.xml #generated:9
+# view res/layout/activity_take_test.xml #generated:9
+# view res/layout/activity_view_attendance.xml #generated:18
+# view res/layout/activity_weight.xml #generated:9
+# view res/layout/my_activity_log.xml #generated:9
+# view res/layout/test.xml #generated:9
+# view res/layout/test_1.xml #generated:6
+# view res/layout/tool_bar.xml #generated:2
+-keep class android.support.design.widget.AppBarLayout { <init>(...); }
+
+# view res/layout/design_text_input_password_icon.xml #generated:18
+-keep class android.support.design.widget.CheckableImageButton { <init>(...); }
+
+# view res/layout/activity_scan.xml #generated:66
+# view res/layout/design_bottom_sheet_dialog.xml #generated:17
+# view res/layout/dialog_otp.xml #generated:7
+# view res/layout/test.xml #generated:66
+-keep class android.support.design.widget.CoordinatorLayout { <init>(...); }
+
+# view res/layout/activity_home.xml #generated:76
+# view res/layout/activity_profile.xml #generated:81
+# view res/layout/activity_scan.xml #generated:163
+# view res/layout/activity_show_sub_test.xml #generated:59
+# view res/layout/dialog_otp.xml #generated:95
+# view res/layout/test.xml #generated:162
+-keep class android.support.design.widget.FloatingActionButton { <init>(...); }
+
+# view res/layout/design_layout_snackbar.xml #generated:18
+# view sw600dp-v13\res/layout-sw600dp-v13/design_layout_snackbar.xml #generated:18
+-keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(...); }
+
+# view res/layout/activity_forgot_password.xml #generated:34
+# view res/layout/activity_forgot_password.xml #generated:51
+# view res/layout/activity_forgot_password.xml #generated:68
+# view res/layout/login_screen.xml #generated:37
+# view res/layout/login_screen.xml #generated:60
+-keep class android.support.design.widget.TextInputLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:43
+# view res/layout/abc_alert_dialog_material.xml #generated:52
+# view res/layout/abc_alert_dialog_material.xml #generated:66
+# view res/layout/abc_alert_dialog_title_material.xml #generated:56
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# view res/layout/abc_select_dialog_material.xml #generated:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_mode_bar.xml #generated:19
+# view res/layout/abc_screen_toolbar.xml #generated:43
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# view res/layout/my_activity_log_board_child.xml #generated:8
+# view res/layout/my_activity_log_item.xml #generated:33
+-keep class android.support.v7.widget.CardView { <init>(...); }
+
+# view res/layout/abc_screen_content_include.xml #generated:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_title_material.xml #generated:45
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# view res/layout/abc_dialog_title_material.xml #generated:22
+# view res/layout/abc_screen_simple.xml #generated:17
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# view res/layout/activity_home.xml #generated:68
+# view res/layout/activity_show_sub_test.xml #generated:51
+# view res/layout/my_activity_log.xml #generated:82
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view res/layout/aactivity_strength.xml #generated:14
+# view res/layout/abc_screen_toolbar.xml #generated:36
+# view res/layout/activity_agility.xml #generated:16
+# view res/layout/activity_bmi.xml #generated:14
+# view res/layout/activity_count.xml #generated:14
+# view res/layout/activity_dashboard.xml #generated:14
+# view res/layout/activity_flexibility.xml #generated:15
+# view res/layout/activity_hand_eye_coordination.xml #generated:14
+# view res/layout/activity_height.xml #generated:14
+# view res/layout/activity_home.xml #generated:14
+# view res/layout/activity_log.xml #generated:14
+# view res/layout/activity_options.xml #generated:14
+# view res/layout/activity_profile.xml #generated:16
+# view res/layout/activity_scan.xml #generated:15
+# view res/layout/activity_show_sub_test.xml #generated:14
+# view res/layout/activity_take_test.xml #generated:14
+# view res/layout/activity_view_attendance.xml #generated:24
+# view res/layout/activity_weight.xml #generated:14
+# view res/layout/my_activity_log.xml #generated:14
+# view res/layout/test.xml #generated:15
+# view res/layout/test_1.xml #generated:12
+# view res/layout/tool_bar.xml #generated:8
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# view res/layout/abc_screen_simple.xml #generated:25
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# view AndroidManifest.xml #generated:202
+-keep class com.google.android.gms.ads.AdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:206
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:209
+-keep class com.google.android.gms.appinvite.PreviewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:228
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(...); }
+
+# view AndroidManifest.xml #generated:219
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:283
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:270
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:278
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(...); }
+
+# view AndroidManifest.xml #generated:254
+-keep class com.google.android.gms.tagmanager.TagManagerPreviewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:249
+-keep class com.google.android.gms.tagmanager.TagManagerService { <init>(...); }
+
+# view AndroidManifest.xml #generated:232
+-keep class com.google.firebase.crash.internal.service.FirebaseCrashReceiverService { <init>(...); }
+
+# view AndroidManifest.xml #generated:235
+-keep class com.google.firebase.crash.internal.service.FirebaseCrashSenderService { <init>(...); }
+
+# view AndroidManifest.xml #generated:303
+-keep class com.google.firebase.iid.FirebaseInstanceIdInternalReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:288
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:310
+-keep class com.google.firebase.iid.FirebaseInstanceIdService { <init>(...); }
+
+# view AndroidManifest.xml #generated:242
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(...); }
+
+# view AndroidManifest.xml #generated:318
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:174
+-keep class fitness365.com.fitness365.ActiveConnectActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class fitness365.com.fitness365.BalanceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class fitness365.com.fitness365.CountActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:169
+-keep class fitness365.com.fitness365.DartBoardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:148
+-keep class fitness365.com.fitness365.DashBoardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class fitness365.com.fitness365.DistanceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:179
+-keep class fitness365.com.fitness365.FingerprintActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class fitness365.com.fitness365.FixedScoreActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class fitness365.com.fitness365.ForgotPasswordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class fitness365.com.fitness365.HeightActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class fitness365.com.fitness365.HomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class fitness365.com.fitness365.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:164
+-keep class fitness365.com.fitness365.MyLogBoardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:143
+-keep class fitness365.com.fitness365.OptionsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:153
+-keep class fitness365.com.fitness365.ProfileActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class fitness365.com.fitness365.ScanActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class fitness365.com.fitness365.SchoolActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class fitness365.com.fitness365.ShowSubTestActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class fitness365.com.fitness365.SplashScreenActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class fitness365.com.fitness365.TakeTestActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class fitness365.com.fitness365.TestActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:138
+-keep class fitness365.com.fitness365.TestStatusActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:133
+-keep class fitness365.com.fitness365.TestStatusReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class fitness365.com.fitness365.TimeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:159
+-keep class fitness365.com.fitness365.ViewAttendanceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:108
+-keep class fitness365.com.fitness365.WeightActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class fitness365.com.fitness365.app.Fitness365App { <init>(...); }
+
+# view AndroidManifest.xml #generated:195
+-keep class fitness365.com.fitness365.receiver.AutoSyncReceiver { <init>(...); }
+
+# view res/layout/activity_view_attendance.xml #generated:61
+# view res/layout/make_dart.xml #generated:28
+-keep class fitness365.com.fitness365.robotocalendar.RobotoCalendarView { <init>(...); }
+
+# view res/layout/roboto_calendar_date_title_layout.xml #generated:18
+# view res/layout/roboto_calendar_week_1.xml #generated:114
+# view res/layout/roboto_calendar_week_1.xml #generated:146
+# view res/layout/roboto_calendar_week_1.xml #generated:178
+# view res/layout/roboto_calendar_week_1.xml #generated:19
+# view res/layout/roboto_calendar_week_1.xml #generated:210
+# view res/layout/roboto_calendar_week_1.xml #generated:50
+# view res/layout/roboto_calendar_week_1.xml #generated:82
+# view res/layout/roboto_calendar_week_2.xml #generated:113
+# view res/layout/roboto_calendar_week_2.xml #generated:144
+# view res/layout/roboto_calendar_week_2.xml #generated:175
+# view res/layout/roboto_calendar_week_2.xml #generated:20
+# view res/layout/roboto_calendar_week_2.xml #generated:206
+# view res/layout/roboto_calendar_week_2.xml #generated:51
+# view res/layout/roboto_calendar_week_2.xml #generated:82
+# view res/layout/roboto_calendar_week_3.xml #generated:113
+# view res/layout/roboto_calendar_week_3.xml #generated:145
+# view res/layout/roboto_calendar_week_3.xml #generated:176
+# view res/layout/roboto_calendar_week_3.xml #generated:20
+# view res/layout/roboto_calendar_week_3.xml #generated:207
+# view res/layout/roboto_calendar_week_3.xml #generated:51
+# view res/layout/roboto_calendar_week_3.xml #generated:82
+# view res/layout/roboto_calendar_week_4.xml #generated:112
+# view res/layout/roboto_calendar_week_4.xml #generated:143
+# view res/layout/roboto_calendar_week_4.xml #generated:174
+# view res/layout/roboto_calendar_week_4.xml #generated:20
+# view res/layout/roboto_calendar_week_4.xml #generated:205
+# view res/layout/roboto_calendar_week_4.xml #generated:50
+# view res/layout/roboto_calendar_week_4.xml #generated:81
+# view res/layout/roboto_calendar_week_5.xml #generated:113
+# view res/layout/roboto_calendar_week_5.xml #generated:144
+# view res/layout/roboto_calendar_week_5.xml #generated:175
+# view res/layout/roboto_calendar_week_5.xml #generated:20
+# view res/layout/roboto_calendar_week_5.xml #generated:206
+# view res/layout/roboto_calendar_week_5.xml #generated:51
+# view res/layout/roboto_calendar_week_5.xml #generated:82
+# view res/layout/roboto_calendar_week_6.xml #generated:113
+# view res/layout/roboto_calendar_week_6.xml #generated:144
+# view res/layout/roboto_calendar_week_6.xml #generated:175
+# view res/layout/roboto_calendar_week_6.xml #generated:20
+# view res/layout/roboto_calendar_week_6.xml #generated:206
+# view res/layout/roboto_calendar_week_6.xml #generated:51
+# view res/layout/roboto_calendar_week_6.xml #generated:82
+# view res/layout/roboto_calendar_week_days_layout.xml #generated:12
+# view res/layout/roboto_calendar_week_days_layout.xml #generated:25
+# view res/layout/roboto_calendar_week_days_layout.xml #generated:37
+# view res/layout/roboto_calendar_week_days_layout.xml #generated:49
+# view res/layout/roboto_calendar_week_days_layout.xml #generated:61
+# view res/layout/roboto_calendar_week_days_layout.xml #generated:73
+# view res/layout/roboto_calendar_week_days_layout.xml #generated:85
+# view res/layout/roboto_school_name_1.xml #generated:122
+# view res/layout/roboto_school_name_1.xml #generated:147
+# view res/layout/roboto_school_name_1.xml #generated:173
+# view res/layout/roboto_school_name_1.xml #generated:18
+# view res/layout/roboto_school_name_1.xml #generated:44
+# view res/layout/roboto_school_name_1.xml #generated:70
+# view res/layout/roboto_school_name_1.xml #generated:96
+# view res/layout/roboto_school_name_2.xml #generated:122
+# view res/layout/roboto_school_name_2.xml #generated:147
+# view res/layout/roboto_school_name_2.xml #generated:173
+# view res/layout/roboto_school_name_2.xml #generated:18
+# view res/layout/roboto_school_name_2.xml #generated:44
+# view res/layout/roboto_school_name_2.xml #generated:70
+# view res/layout/roboto_school_name_2.xml #generated:96
+# view res/layout/roboto_school_name_3.xml #generated:122
+# view res/layout/roboto_school_name_3.xml #generated:147
+# view res/layout/roboto_school_name_3.xml #generated:173
+# view res/layout/roboto_school_name_3.xml #generated:18
+# view res/layout/roboto_school_name_3.xml #generated:44
+# view res/layout/roboto_school_name_3.xml #generated:70
+# view res/layout/roboto_school_name_3.xml #generated:96
+# view res/layout/roboto_school_name_4.xml #generated:122
+# view res/layout/roboto_school_name_4.xml #generated:147
+# view res/layout/roboto_school_name_4.xml #generated:173
+# view res/layout/roboto_school_name_4.xml #generated:18
+# view res/layout/roboto_school_name_4.xml #generated:44
+# view res/layout/roboto_school_name_4.xml #generated:70
+# view res/layout/roboto_school_name_4.xml #generated:96
+# view res/layout/roboto_school_name_5.xml #generated:122
+# view res/layout/roboto_school_name_5.xml #generated:147
+# view res/layout/roboto_school_name_5.xml #generated:173
+# view res/layout/roboto_school_name_5.xml #generated:18
+# view res/layout/roboto_school_name_5.xml #generated:44
+# view res/layout/roboto_school_name_5.xml #generated:70
+# view res/layout/roboto_school_name_5.xml #generated:96
+# view res/layout/roboto_school_name_6.xml #generated:122
+# view res/layout/roboto_school_name_6.xml #generated:147
+# view res/layout/roboto_school_name_6.xml #generated:173
+# view res/layout/roboto_school_name_6.xml #generated:18
+# view res/layout/roboto_school_name_6.xml #generated:44
+# view res/layout/roboto_school_name_6.xml #generated:70
+# view res/layout/roboto_school_name_6.xml #generated:96
+-keep class fitness365.com.fitness365.robotocalendar.font.RobotoTextView { <init>(...); }
+
+# view res/layout/activity_log.xml #generated:251
+-keep class fitness365.com.fitness365.util.NonScrollListView { <init>(...); }
+

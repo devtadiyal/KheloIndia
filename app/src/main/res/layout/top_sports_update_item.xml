@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+  >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/student_name_tv"
+        android:text="Student 1"
+        android:textSize="12sp"
+        android:textColor="@color/grey"
+        android:layout_weight="1"
+        android:padding="3dp"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/student_roll_no_tv"
+        android:text="001781"
+        android:textSize="12sp"
+        android:textColor="@color/grey"
+        android:layout_weight="0.5"
+        />
+
+<RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1.75"
+    >
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sports_spin"
+        android:background="@android:color/transparent"
+        />
+
+    <ImageView
+        android:layout_width="11dp"
+        android:layout_height="11dp"
+        android:layout_alignParentRight="true"
+        android:rotation="180"
+        android:src="@drawable/down_arrow"
+        android:layout_alignBaseline="@+id/sports_spin"
+        />
+</RelativeLayout>
+</LinearLayout>

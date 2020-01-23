@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Venkata\f365_phase2\echoprintLib\src\main\assets"/><source path="D:\Venkata\f365_phase2\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="D:\Venkata\f365_phase2\echoprintLib\src\release\assets"/></dataSet></merger>

@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_grey"
+        android:weightSum="3"
+        android:orientation="vertical">
+
+        <!-- ********* 1st part ***************-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="visible"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:id="@+id/assessment_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_marginRight="@dimen/margin_value"
+                android:layout_marginBottom="@dimen/margin_value"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/assessment_img"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
+                    android:src="@drawable/active_connect_i"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Assessment" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mark_attendance_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginLeft="@dimen/margin_value"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/mark_attendance_img"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
+                    android:visibility="invisible"
+                    android:src="@drawable/view_dart_i" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:visibility="invisible"
+                    android:text="Mark Attendance" />
+            </LinearLayout>
+
+            <!--<LinearLayout
+                android:id="@+id/make_my_dart_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="visible"
+                android:background="@color/white"
+                android:layout_marginLeft="@dimen/margin_value"
+                android:layout_marginBottom="@dimen/margin_value"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/view_dart_board_img"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
+                    android:visibility="visible"
+                    android:src="@drawable/view_dart_i" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:visibility="visible"
+                    android:text="Mark Attendance" />
+            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <!-- ******2nd part ***************************** -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/view_attendence_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginTop="@dimen/margin_value"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/view_attendence_img"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
+                    android:visibility="gone"
+                    android:src="@drawable/attendance_i"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:visibility="gone"
+                    android:text="My DART" />
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/view_dart_board_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/make_my_dart_img"
+                    android:layout_width="@dimen/image_size"
+                    android:visibility="gone"
+                    android:layout_height="@dimen/image_size"
+                    android:src="@drawable/my_dart_i"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:visibility="gone"
+                    android:text="Update TOP Sports" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- ********* 3rd part ***************-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginBottom="@dimen/margin_value"
+                android:orientation="vertical">
+
+                <!--   <ImageView
+                       android:id="@+id/balance_img"
+                       android:layout_width="@dimen/image_size"
+                       android:layout_height="@dimen/image_size"
+                       android:src="@drawable/balance_i"/>
+
+                   <TextView
+                       android:id="@+id/balance_tv"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Balance" />-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/margin_value"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <!--<ImageView
+                    android:id="@+id/hand_eye_img"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
+                    android:src="@drawable/hand_e_coor_i"/>
+
+                <TextView
+                    android:id="@+id/hand_eye_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hand-Eye Coordination"
+                    android:gravity="center" />-->
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- ********* 4th part ***************-->
+
+        <!-- ********* 5th ***************-->
+
+        <!-- *********** end ******************-->
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+    <!--
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        &lt;!&ndash; ********* 1st part ***************&ndash;&gt;
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp">
+
+            <LinearLayout
+                android:id="@+id/agility_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dashboard_margin_big"
+                android:paddingRight="@dimen/dashboard_margin_small">
+
+
+                <LinearLayout
+                    android:id="@+id/make_my_dart_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/make_my_dart_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/make_my_dart_i" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/agility_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:singleLine="true"
+                    android:text="Make My DART"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/speed_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dashboard_margin_small"
+                android:paddingRight="@dimen/dashboard_margin_big">
+
+                <LinearLayout
+                    android:id="@+id/view_attendence_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/view_attendence_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/view_attendance_i" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:singleLine="true"
+                    android:text="View Attendance"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        &lt;!&ndash; ********* 2nd part ***************&ndash;&gt;
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <LinearLayout
+                android:id="@+id/endurance_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="top|center"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dashboard_margin_big"
+                android:paddingRight="@dimen/dashboard_margin_small">
+
+                <LinearLayout
+                    android:id="@+id/view_dart_board_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/view_dart_board_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/view_dart_board_i" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:singleLine="true"
+                    android:text="View DART Board"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/flexibility_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="top|center"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dashboard_margin_small"
+                android:paddingRight="@dimen/dashboard_margin_big">
+
+                <LinearLayout
+                    android:id="@+id/assessment_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/assessment_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/assessment_i" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/assessment_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:singleLine="true"
+                    android:text="Assessment"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        &lt;!&ndash; ********* 3rd part ***************&ndash;&gt;
+
+
+    </LinearLayout>
+
+    &lt;!&ndash; *********** end ******************&ndash;&gt;
+</LinearLayout>-->

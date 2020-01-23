@@ -1,0 +1,335 @@
+<resources>
+    <string name="app_name">खेलो इंडिया - एसेसर</string>
+    <string name="forgot_password_text">पासवर्ड रीसेट निर्देश भेजने के लिए हमें बस आपके पंजीकृत ईमेल आईडी की आवश्यकता है।</string>
+    <string name="otp_text">(अपने पंजीकृत ईमेल आईडी पर भेजे गए ओटीपी दर्ज करें)</string>
+    <string name="school_select">स्कूल का चयन करें</string>
+    <string name="test_select">परीक्षण का चयन करें</string>
+    <string name="test_status">टेस्ट स्थिति</string>
+    <string name="test_status_report">टेस्ट स्थिति रिपोर्ट</string>
+    <string name="string_agility_text">इलिनॉइस सर्किट एजिलिटी टेस्ट स्कोर दर्ज करें</string>
+    <string name="string_flexibility_text">सक्रिय सीधे पैर उठाना टेस्ट स्कोर दर्ज करें</string>
+    <string name="string_hand_eye">हाथ-आंख समन्वय परीक्षण स्कोर दर्ज करें</string>
+    <string name="username">कृपया उपयोगकर्ता नाम दर्ज करें</string>
+    <string name="password">कृप्या पास्वर्ड भरो</string>
+    <string name="exit_from_test">कृपया सुनिश्चित करें कि किसी अन्य स्क्रीन पर स्विच करने से पहले टेस्ट स्कोर सहेजा गया है। क्या आप वाकई जारी रखना चाहते हैं (बिना बचत के)?</string>
+    <string name="exit_from_app">क्या आप वाकई एसेसर-खेलो इंडिया ऐप से बाहर निकलना चाहते हैं?</string>
+    <string name="view_report_string">रिपोर्ट देखें (%s)</string>
+
+    <string name="validate_class_drop_down">कक्षा ड्रॉप डाउन चुना जाना चाहिए</string>
+
+    <string name="email_verification_symbols">^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$</string>
+    <string name="server_down">एप्लिकेशन अभी सर्वर से कनेक्ट नहीं हो सकता है। संभावित कारण: आपका मोबाइल डेटा बंद हो सकता है या इंटरनेट की गति धीमी हो सकती है। </string>
+    <string name="no_internet">इंटरनेट उपलब्ध नहीं है कृपया बाद में पुनः प्रयास करें</string>
+    <string name="data_save_success">डेटा सफलतापूर्वक सहेजा गया</string>
+    <string name="time_status_entry_empty">कोई प्रारंभ समय नहीं</string>
+    <string name="time_status_exit_empty">कोई अंत समय नहीं</string>
+    <string name="logout">लोग आउट</string>
+    <string name="enable_your_internet">कृपया अपना इंटरनेट कनेक्शन सक्षम करें!</string>
+
+    <!--go daddy staging-->
+    <!--<string name="base_url">http://dart.fitness365.me/f365_wservice/service1.svc/</string>-->
+    <!--<string name="image_base_url">http://dart.fitness365.me/f365_wservice</string>-->
+
+    <!--live-->
+
+    <!--<string name="base_url">http://103.65.20.125:90/Service1.svc/</string>-->
+    <!--<string name="image_base_url">http://103.65.20.125:90/</string>-->
+
+    <!--<string name="base_url">http://103.65.20.125:92/Service1.svc/</string>-->
+    <!--<string name="image_base_url">http://103.65.20.125:92/</string>-->
+
+    <!--<string name="base_url"> http://schoolfitness.kheloindia.gov.in:8080/Service1.svc/</string>-->
+    <!--<string name="image_base_url">http://schoolfitness.kheloindia.gov.in:8080/</string>-->
+
+    <!--Current testing url-->
+
+    <!--<string name="base_url">http://103.65.20.140:89/Service1.svc/</string>-->
+    <!--<string name="image_base_url">http://103.65.20.140:89/</string>-->
+
+    <!--current live url-->
+    <string name="base_url"> https://fitnessdata.kheloindia.gov.in/Service1.svc/</string>
+    <string name="image_base_url">https://fitnessdata.kheloindia.gov.in/</string>
+
+    <!--live staging-->
+    <!--<string name="base_url">http://192.168.1.117:85/Service1.svc/</string>-->
+    <!--<string name="image_base_url">http://192.168.1.117:85/</string>-->
+
+    <string name="forgot_password_success">आपने नया पासवर्ड सफलतापूर्वक सेट कर दिया है</string>
+    <string name="select_test">टेस्ट का चयन करें</string>
+    <string name="select_class">कक्षा का चयन करें</string>
+    <string name="all">सब</string>
+    <string name="validate_test_drop_down">टेस्ट ड्रॉप डाउन चुना जाना चाहिए</string>
+
+
+    <string name="monthTitleFont">roboto_light</string>
+     <string name="dayOfWeekFont">roboto_regular</string>
+     <string name="dayOfMonthFont">roboto_light</string>
+
+
+    <string name="title_fingerprint">One-touch Sign In</string>
+    <string name="desc_fingerprint">Please place your fingertip on the scanner to verify your identity</string>
+    <string name="note">(Fingerprint sign in makes your app login much faster. Your device should have at least one fingerprint registered in device settings)</string>
+    <string name="activity_log">गतिविधि लॉग</string>
+    <string name="my_activity_log">मेरी गतिविधि लॉग</string>
+    <string name="view_dart_board">डार्ट बोर्ड देखें</string>
+    <string name="date_choose">तारीख चुना जाना चाहिए</string>
+    <string name="month_choose">महीना चुना जाना चाहिए</string>
+    <string name="year_choose">वर्ष चुना जाना चाहिए</string>
+
+    <string name="classs">कक्षा</string>
+    <string name="lesson_plan">पाठ योजना का चयन करें</string>
+    <string name="sports_technique">खेल का चयन करें</string>
+    <string name="other">चुनें</string>
+    <string name="period">अवधि</string>
+        <string name="make_my_dart">डार्ट बनाएं</string>
+    <string name="reset_data">क्या आप वाकई सभी फ़ील्ड रीसेट करना चाहते हैं?</string>
+    <string name="please_scan">कृपया सुनिश्चित करें कि सेविंग से पहले छात्र डेटा और टेस्ट स्कोर भर चुके हैं।</string>
+    <string name="please_stop_timer">कृपया सहेजने से पहले टाइमर को बंद कर दें।</string>
+    <string name="not_for_juniors">आप जूनियर सेक्शन के लिए परीक्षा नहीं ले सकते हैं।</string>
+    <string name="validate_net_reading">अंतिम पठन प्रारंभिक पढ़ने से अधिक होना चाहिए।</string>
+
+    <string name="nill_score">—</string>
+    <string name="nill_score_excel_sheet">--</string>
+    <string name="kg">\u0020kg</string>
+    <string name="age_gender">—/—</string>
+    <string name="csv_message_loader">डेटा निर्यात कर कृपया प्रतीक्षा करें ...</string>
+    <string name="schools_message_loader">कृपया प्रतीक्षा करें जब तक हम स्कूल के लिए नवीनतम डेटा प्राप्त करते हैं।</string>
+    <string name="tests_message_loader">परीक्षण के लिए नवीनतम डेटा लाने के दौरान कृपया प्रतीक्षा करें।</string>
+    <string name="attended_max">Attended By ⊕</string>
+    <string name="attended_min">Attended By ⊖</string>
+
+    <!--    <string name="progress_loader">Please wait while we fetch the latest data</string>-->
+    <string name="progress_loader">डेटा लोड हो रहा है कृपया प्रतीक्षा करें ...</string>
+    <string name="notification_title">ऐप अपडेट उपलब्ध है</string>
+    <string name="notification_content">कृपया नवीनतम संस्करण डाउनलोड करें</string>
+    <string name="not_for_seniors">आप वरिष्ठ अनुभाग के लिए परीक्षा नहीं ले सकते हैं।</string>
+    <string name="throw_ball">खेल- गेंद फेंको</string>
+    <string name="kabaddi">खेल- कबड्डी</string>
+    <string name="football">खेल- फुटबॉल</string>
+    <string name="kho_kho">खेल- खो खो</string>
+    <string name="hand_ball">खेल- हैंडबॉल</string>
+    <string name="cricket">खेल- क्रिकेट</string>
+    <string name="basket_ball">खेल- बास्केटबाल</string>
+    <string name="volley_ball">खेल- वॉलीबॉल</string>
+    <string name="athletics">व्यायाम</string>
+    <string name="gymnastics_aerobics">जिमनास्टिक्स / एरोबिक्स</string>
+    <string name="badminton">खेल- बैडमिंटन</string>
+    <string name="squash">खेल- स्क्वाश</string>
+    <string name="proficient">प्रवीण</string>
+    <string name="exemplary">अनुकरणीय</string>
+    <string name="learning">सीख रहा हूँ</string>
+    <string name="absent">अनुपस्थित</string>
+
+    <string name="validate_class_period_drop_down">कक्षा और अवधि ड्रॉप डाउन का चयन किया जाना चाहिए</string>
+    <string name="validate_lesson_drop_down">पाठ योजना ड्रॉप डाउन किया जाना चाहिए</string>
+    <string name="validate_sports_drop_down">खेल ड्रॉप डाउन चुना जाना चाहिए</string>
+    <string name="validate_other_drop_down">अन्य ड्रॉप डाउन चुना जाना चाहिए</string>
+    <string name="validate_remarks">कृपया टिप्पणियां दर्ज करें</string>
+    <string name="validate_boys_girls">लड़कों और लड़कियों की संख्या दर्ज करें</string>
+    <string name="export_success">निर्यात सफल!</string>
+    <string name="export_failed">निर्यात विफल</string>
+    <string name="no_of_students">विद्यार्थियों की संख्या:\u0020</string>
+    <string name="incomplete_mapping_for_all">इस खेल को कोई छात्र नहीं सौंपा गया है</string>
+    <string name="complete_mapping_for_all">सभी छात्रों को खेल के लिए सौंपा गया है</string>
+    <string name="data_save_message_alert">कृपया सुनिश्चित करें कि किसी अन्य स्क्रीन पर स्विच करने से पहले डेटा सहेजा गया है।</string>
+    <string name="data_sync_message_alert">कृपया परीक्षण करने के पूरा होने के बाद डेटा सिंक हो गया है सुनिश्चित करें।</string>
+    <string name="data_save_message_sports_alert">It appears that \n\n a) Sports have not been mapped to students. OR \n b) You have not updated the students list of the school for the year.\n\nTo map sports to students, go to <b>Update TOP Sports</b> in the home screen.\n\n ​To update student list, please contact director/principal/HM for the students list. Help him/her to upload the student list from his/her active connect dashboard. \nDownload the format of the student: <a href="http://23.253.243.116:92/UploadStudentDataByTrainer.aspx">Download</a></string>
+    <string name="data_save_message_shape_alert">It appears that you have not updated the students list of the school for the year. \n \n Without the students list, you will not be able to give grades to students for the activity. \n \nPlease contact principal/headmaster for the students list. \n \nDownload the format of the student: <a href="http://23.253.243.116:92/UploadStudentDataByTrainer.aspx">Download</a></string>
+    <string name="term_expire">आपका शिविर समाप्त हो गया है, इस शिविर से कोई छात्र संबद्ध नहीं है।</string>
+    <string name="sync_start">सिंक्रनाइज़ेशन शुरू हुआ</string>
+    <string name="sync_end1">वरिष्ठ नागरिकों के लिए सिंक्रनाइज़ेशन समाप्त हो गया है</string>
+    <string name="sync_end2">जूनियर के लिए सिंक्रनाइज़ेशन समाप्त हो गया है</string>
+    <string name="sync_end3">जूनियर और वरिष्ठ नागरिकों के लिए सिंक्रनाइज़ेशन समाप्त हो गया है</string>
+    <string name="auth_sect_unallow">आप इस खंड तक पहुंचने के लिए अधिकृत नहीं हैं</string>
+
+
+    <string name="fitness_assessment">फिटनेस का आकलन</string>
+    <string name="user_name">यूजर नेम</string>
+    <string name="pass_word">पासवर्ड</string>
+    <string name="login">लॉगिन</string>
+    <string name="forgot_password"> पासवर्ड भूल गए ?</string>
+    <string name="new_user">नया उपयोगकर्ता</string>
+    <string name="sign_up">नया अकाउंट बनायें</string>
+    <string name="hindi">हिंदी</string>
+    <string name="pref_lan">अपनी पसंदीदा भाषा का चयन करें</string>
+    <string name="next">आगे</string>
+    <string name="start_fitness">फिटनेस असेसमेंट</string>
+    <string name="learn">सीखें</string>
+    <string name="play">खेलें</string>
+
+
+    <!--rahul-->
+    <string name="app_update_message">ऐप अपडेट के लिए जाँच करें, कृपया प्रतीक्षा करें...</string>
+    <string name="validate_height">कृपया 40 और 250 के बीच ऊंचाई दर्ज करें</string>
+    <string name="validate_weight">कृपया 10 और 500 के बीच वजन दर्ज करें</string>
+    <string name = "start_timer"> कृपया टाइमर शुरू करें! </string>
+    <string name="time_not_completed_30sec">कृपया 30 सेकंड पूरा करने के लिए टाइमर की प्रतीक्षा करें!</string>
+    <string name="time_not_completed_60sec">कृपया 60 सेकंड पूरा करने के लिए टाइमर की प्रतीक्षा करें!</string>
+
+    <string name="fill_some_score">कृपया स्कोर भरें!</string>
+    <string name="no_schools_found">आपको कोई स्कूल नहीं सौंपा गया है। स्कूल में अपनी अस्सिटेंट आईडी को लिंक करने के लिए कृपया अपने प्रधानाचार्य से संपर्क करें schoolfitness.kheloindia.gov.in पर।</string>
+    <string name="update_state_city_msg">एप्लिकेशन का उपयोग जारी रखने के लिए कृपया प्रोफ़ाइल में अपने राज्य, शहर, जिला और ब्लॉक को अपडेट करें!</string>
+    <string name="select_label">चयन करें</string>
+
+
+
+
+    <string-array name="months_array">
+        <item>All</item>
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+
+    <string-array name="dates_array">
+        <item>All</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+
+    </string-array>
+
+    <string-array name="dates_array_two">
+        <item>All</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+
+
+    </string-array>
+
+
+    <string-array name="dates_array_three">
+        <item>All</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+
+
+    </string-array>
+
+
+    <string-array name="dates_array_four">
+        <item>All</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+    </string-array>
+
+</resources>

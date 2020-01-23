@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">486085572218-su4if8l79muqmnlpbegc9vr9upogsfv8.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://fitness365-186cd.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">486085572218</string>
+    <string name="google_api_key" translatable="false">AIzaSyCgQyrfJOf9z2TINTFyoOl1lrTtsjb0tnE</string>
+    <string name="google_app_id" translatable="false">1:486085572218:android:86d261b8275ce74d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCgQyrfJOf9z2TINTFyoOl1lrTtsjb0tnE</string>
+    <string name="google_storage_bucket" translatable="false">fitness365-186cd.appspot.com</string>
+    <string name="project_id" translatable="false">fitness365-186cd</string>
+</resources>

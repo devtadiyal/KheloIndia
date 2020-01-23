@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        layout="@layout/tool_bar" />
+
+
+
+
+        <TextView
+            android:id="@+id/school_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rabindranath World School"
+            android:textSize="18dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/blue_rounded_box"
+            android:paddingTop="4dp"
+            android:layout_gravity="center"
+            android:paddingBottom="4dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:layout_centerHorizontal="true"/>
+
+       <!-- <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/header_school_i" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/school_tv"
+            android:layout_marginLeft="10dp"
+            android:text="Rabindranth world school" />-->
+
+
+
+    <GridView
+        android:id="@+id/test_lst"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:numColumns="2"
+        android:stretchMode="columnWidth" />
+
+
+</LinearLayout>

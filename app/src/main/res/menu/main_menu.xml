@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/profile_img"
+        app:showAsAction="never"
+        android:title="@string/my_profile">
+    </item>
+
+    <item
+        android:id="@+id/sop"
+        app:showAsAction="never"
+        android:title="@string/sop">
+    </item>
+
+    <item
+        android:id="@+id/admin_manual"
+        app:showAsAction="never"
+        android:title="@string/admin_manual">
+    </item>
+
+
+    <item
+        android:id="@+id/ecetificate"
+        app:showAsAction="never"
+        android:title="@string/ecetificate">
+    </item>
+
+
+    <item
+        android:id="@+id/logout"
+        app:showAsAction="never"
+        android:title="@string/logout">
+    </item>
+</menu>

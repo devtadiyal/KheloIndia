@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/toolbar_layout"/>
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="30dp"-->
+            <!--android:layout_marginRight="-15dp">-->
+            <!---->
+            <!--<ImageView-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="140dp"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:src="@drawable/ministry_of_youth_i"-->
+                <!--android:id="@+id/gov_logo_iv"-->
+                <!--android:layout_marginTop="-20dp"-->
+                <!--android:layout_marginBottom="-20dp"-->
+
+                <!--/>-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="140dp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:src="@drawable/kheloindia_i"-->
+                <!--android:id="@+id/khelo_logo_iv"-->
+                <!--android:layout_marginTop="-20dp"-->
+                <!--android:layout_marginBottom="-20dp"-->
+
+                <!--/>-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="140dp"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:src="@drawable/sai_i"-->
+                <!--android:layout_marginTop="-20dp"-->
+                <!--android:layout_marginBottom="-20dp"-->
+
+                <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/login"
+            android:textAllCaps="true"
+            android:layout_marginBottom="10dp"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:id="@+id/fit_ass_tv"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/user_name"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/user_name_tv"
+              />
+
+            <EditText
+                android:id="@+id/user_name_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:padding="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@drawable/rectangle"
+                />
+
+        </LinearLayout>
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="@drawable/rectangle_curved"-->
+        <!--android:text="GoForFit"-->
+        <!--android:paddingLeft="20dp"-->
+        <!--android:paddingRight="20dp"-->
+        <!--android:paddingTop="5dp"-->
+        <!--android:paddingBottom="5dp"-->
+        <!--android:textColor="@color/colorPrimary"/>-->
+        <!--<RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/trainer_student_rg_grp">
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/trainer_rb_btn"
+                        android:text="Trainer"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        app:buttonTint="@color/colorAccent" />
+
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Student"
+                        android:textColor="@color/pale_grey"
+                        android:id="@+id/student_rb_btn"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="15dp"
+                        app:buttonTint="@color/colorAccent" />
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Admin"
+                        android:textColor="@color/pale_grey"
+                        android:id="@+id/admin_rb_btn"
+                        android:textSize="12dp"
+                        app:buttonTint="@color/colorAccent" />
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Coordinator"
+                        android:textSize="12dp"
+                        android:textColor="@color/pale_grey"
+                        android:id="@+id/coordinator_rb_btn"
+                        app:buttonTint="@color/colorAccent" />
+
+                </RadioGroup>-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pass_word"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/password_tv"/>
+
+            <EditText
+                android:id="@+id/password_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:padding="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@drawable/rectangle"
+                android:drawableRight="@drawable/pwd_show_i"
+                android:drawablePadding="10dp"
+                android:inputType="textPassword"
+                android:maxLength="30"
+                />
+
+        </LinearLayout>
+
+
+        <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:id="@+id/password_til"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:hint="Password">-->
+
+        <!--<EditText-->
+        <!--android:id="@+id/password_edt"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:drawableLeft="@drawable/ic_lock"-->
+        <!--android:drawableRight="@drawable/pwd_show_i"-->
+        <!--android:drawablePadding="10dp"-->
+        <!--android:inputType="textPassword"-->
+        <!--android:maxLength="30"-->
+        <!--android:singleLine="true"-->
+        <!--android:textColor="@color/black" />-->
+
+
+
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+
+        <!--<CheckBox-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:text="Remember Me"-->
+        <!--android:id="@+id/remember_cbx"-->
+        <!--android:textColor="@color/grey"-->
+        <!--android:checked="true" />-->
+
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/take_test_button"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:stateListAnimator="@null"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/forgot_password_tv"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_user"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/color_accent_border_button"
+            android:text="@string/sign_up"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/sign_up_btn"
+            android:stateListAnimator="@null"
+
+            />
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

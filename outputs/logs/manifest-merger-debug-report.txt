@@ -1,0 +1,774 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:2:1-213:12
+	package
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_LOCATION
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:7:5-74
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:7:22-71
+uses-permission#android.permission.CAMERA
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:8:5-65
+MERGED from [com.github.nisrulz:qreader:1.0.3] C:\Users\CT13\.android\build-cache\2e1d8d889c61a35cab6f608976d8619a31cdb469\output\AndroidManifest.xml:27:5-65
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:8:22-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:9.0.0] C:\Users\CT13\.android\build-cache\add96cdce723acdfd840b3c4339b5fa3609d8c31\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:9.0.0] C:\Users\CT13\.android\build-cache\e769dab8742bc21bd62a20a7051bad7fd9be4994\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-nearby:9.0.0] C:\Users\CT13\.android\build-cache\74ed127fc678cb11e4066ef486014c95b6e69914\output\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.0] C:\Users\CT13\.android\build-cache\9b9af2513fdd53ec262f615997e41af62b5b8a42\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.0.0] C:\Users\CT13\.android\build-cache\d5afec167f4920435c8e94326da6bc2f362b157a\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.0.0] C:\Users\CT13\.android\build-cache\b7755bd6a5f296f2a03ee097e7ec715b2ba3bad5\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\CT13\.android\build-cache\387682b1f8c00cc967922f90aae655b6c0214c62\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\CT13\.android\build-cache\5f8a2ac3657332f3c8b3daf223dcaa7b9c8f862d\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.INTERNET
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:9.0.0] C:\Users\CT13\.android\build-cache\add96cdce723acdfd840b3c4339b5fa3609d8c31\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:9.0.0] C:\Users\CT13\.android\build-cache\e769dab8742bc21bd62a20a7051bad7fd9be4994\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\CT13\.android\build-cache\cdfbdb6bcc3cda83c7116c87d4ef679829320299\output\AndroidManifest.xml:19:5-67
+MERGED from [com.google.firebase:firebase-crash:9.0.0] C:\Users\CT13\.android\build-cache\b7b11b3813da24c7a31df182b01ea4c1825fd123\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.0.0] C:\Users\CT13\.android\build-cache\1578dada6c21d84fa31bcc17c5211924e8ccb1ed\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-iid:9.0.0] C:\Users\CT13\.android\build-cache\f5b56c600e15e8b0a34558018351e9bc841946ff\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.0] C:\Users\CT13\.android\build-cache\9b9af2513fdd53ec262f615997e41af62b5b8a42\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.0.0] C:\Users\CT13\.android\build-cache\d5afec167f4920435c8e94326da6bc2f362b157a\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.0.0] C:\Users\CT13\.android\build-cache\b7755bd6a5f296f2a03ee097e7ec715b2ba3bad5\output\AndroidManifest.xml:21:5-66
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\CT13\.android\build-cache\c28027080a946b5dd4bec4a31bb765f07fdf76be\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\CT13\.android\build-cache\c04853fdf3a2f81f9801e80d8e910a0f4a3fb6f6\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\CT13\.android\build-cache\c8a2f327021c7c248d829fca82500e7167ae7abf\output\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\CT13\.android\build-cache\68c28031c688197d37d800706493d47803e1fc8c\output\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\CT13\.android\build-cache\ef7fe0a5947af019a1ab1f105e4c3a4dabde13fd\output\AndroidManifest.xml:29:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\CT13\.android\build-cache\387682b1f8c00cc967922f90aae655b6c0214c62\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\CT13\.android\build-cache\5f8a2ac3657332f3c8b3daf223dcaa7b9c8f862d\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:13:22-71
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:14:22-68
+application
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:17:5-211:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\CT13\.android\build-cache\9f79c1da4769a96c944aa16d14d81aae0e29475e\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\CT13\.android\build-cache\195ff64ea4703e329747f342127f4331eb5b7d95\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\CT13\.android\build-cache\a6980390a5e5bb8f80061493fcc46b1ccc87feb2\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services:9.0.0] C:\Users\CT13\.android\build-cache\e942fc9b8780d87a04ea97b322c280fdee786283\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:9.0.0] C:\Users\CT13\.android\build-cache\add96cdce723acdfd840b3c4339b5fa3609d8c31\output\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-analytics:9.0.0] C:\Users\CT13\.android\build-cache\e769dab8742bc21bd62a20a7051bad7fd9be4994\output\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\CT13\.android\build-cache\cdfbdb6bcc3cda83c7116c87d4ef679829320299\output\AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-auth:9.0.0] C:\Users\CT13\.android\build-cache\bd18633b2ebaefad560a559ecd36e27b24c8bfa1\output\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-cast:9.0.0] C:\Users\CT13\.android\build-cache\5b4e4b1481686c8872fe90f4130cf04af821229c\output\AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\CT13\.android\build-cache\14a37e2e6d044ccaf38833d9445e059f71921f57\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\CT13\.android\build-cache\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\CT13\.android\build-cache\b8f0619576dcb9b9cdad0087fb450476d11b464c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\CT13\.android\build-cache\eaa8fbbe36679ba39c8cd7b3c3acaee03e5e7276\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-config:9.0.0] C:\Users\CT13\.android\build-cache\0d09a4edbc162be9a5df5c586f62b6422d1f5d7e\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-crash:9.0.0] C:\Users\CT13\.android\build-cache\b7b11b3813da24c7a31df182b01ea4c1825fd123\output\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-auth:9.0.0] C:\Users\CT13\.android\build-cache\76c6ee9fd816fd0693bca22505c7b041caa82d52\output\AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.0.0] C:\Users\CT13\.android\build-cache\8fdd73135b78d1ba1ce5563b39b5147d57413ffe\output\AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-messaging:9.0.0] C:\Users\CT13\.android\build-cache\a19fcf234d760af06f27b385e3d9517f28627e43\output\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-fitness:9.0.0] C:\Users\CT13\.android\build-cache\f2d565567ade9c0df2b484057a3136a4fa5ee214\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:9.0.0] C:\Users\CT13\.android\build-cache\4d7f4e06f4968f87649a552eb8ca1df503cb63c7\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:9.0.0] C:\Users\CT13\.android\build-cache\77e5c03f74aaa45c501fd0e25040791da00c09cb\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:9.0.0] C:\Users\CT13\.android\build-cache\1578dada6c21d84fa31bcc17c5211924e8ccb1ed\output\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:9.0.0] C:\Users\CT13\.android\build-cache\891b7eb8451f4c0fad658f7f81ea3890bc7f409a\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-iid:9.0.0] C:\Users\CT13\.android\build-cache\f5b56c600e15e8b0a34558018351e9bc841946ff\output\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-location:9.0.0] C:\Users\CT13\.android\build-cache\a5d5fadf08802db27e2d07bc09af3bbc49c18e6f\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-nearby:9.0.0] C:\Users\CT13\.android\build-cache\74ed127fc678cb11e4066ef486014c95b6e69914\output\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-panorama:9.0.0] C:\Users\CT13\.android\build-cache\b49ca5363c75fae7e9d8649a01a8469e733b4545\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:9.0.0] C:\Users\CT13\.android\build-cache\7d51d2a2e050cbabf71bb00628ce9ae1bccef4db\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:9.0.0] C:\Users\CT13\.android\build-cache\cbc593c175c437e4f6fba7c70d023aaaa3f4dec6\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.0] C:\Users\CT13\.android\build-cache\9b9af2513fdd53ec262f615997e41af62b5b8a42\output\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.0.0] C:\Users\CT13\.android\build-cache\d5afec167f4920435c8e94326da6bc2f362b157a\output\AndroidManifest.xml:24:5-38:19
+MERGED from [com.google.android.gms:play-services-identity:9.0.0] C:\Users\CT13\.android\build-cache\b6c553e58114b6e36877b9a32a354dc003961bd3\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.0.0] C:\Users\CT13\.android\build-cache\b7755bd6a5f296f2a03ee097e7ec715b2ba3bad5\output\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-wearable:9.0.0] C:\Users\CT13\.android\build-cache\8029478aa0f2a5a76b2d6f42622d0c1e7492877d\output\AndroidManifest.xml:19:5-20
+MERGED from [com.github.nisrulz:qreader:1.0.3] C:\Users\CT13\.android\build-cache\2e1d8d889c61a35cab6f608976d8619a31cdb469\output\AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.android.gms:play-services-vision:9.0.0] C:\Users\CT13\.android\build-cache\5deb385706f13067c93dd3733fd7c547a7ea892a\output\AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:cardview-v7:23.3.0] C:\Users\CT13\.android\build-cache\e2617adc5a94c4e7f0fd38928b8bc96c7e3c70be\output\AndroidManifest.xml:22:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\CT13\.android\build-cache\c28027080a946b5dd4bec4a31bb765f07fdf76be\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\CT13\.android\build-cache\c04853fdf3a2f81f9801e80d8e910a0f4a3fb6f6\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\CT13\.android\build-cache\c8a2f327021c7c248d829fca82500e7167ae7abf\output\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\CT13\.android\build-cache\68c28031c688197d37d800706493d47803e1fc8c\output\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\CT13\.android\build-cache\ef7fe0a5947af019a1ab1f105e4c3a4dabde13fd\output\AndroidManifest.xml:31:5-20
+MERGED from [f365_phase2:echoprintLib:unspecified] D:\Venkata\f365_phase2\intermediates\bundles\default\AndroidManifest.xml:11:5-14:19
+MERGED from [com.google.firebase:firebase-core:9.0.0] C:\Users\CT13\.android\build-cache\392d65133d8b17df9b3309bc2f1b743257698543\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\CT13\.android\build-cache\387682b1f8c00cc967922f90aae655b6c0214c62\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\CT13\.android\build-cache\5f8a2ac3657332f3c8b3daf223dcaa7b9c8f862d\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\CT13\.android\build-cache\0ac31144aa676483b75144f504069e09e655dfed\output\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.0.0] C:\Users\CT13\.android\build-cache\f678f33d8b507d92bdf25b9eecfd62026a46ad38\output\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] C:\Users\CT13\.android\build-cache\9089e79a192815969795facf8cd23e4eb37030c7\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\CT13\.android\build-cache\9153ca67050892fde5ec77f9752c360fb383f003\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\CT13\.android\build-cache\da77e2eb3b92c27a08391be65e06ac06ae554292\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\CT13\.android\build-cache\f513656e1b6ad5d6d3ef907cf0dfb65ecf6f041f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\CT13\.android\build-cache\5d63f9cff6b67f4e6e36b96e7c454733f0dee889\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\CT13\.android\build-cache\8434ff7ade9bb3571fa7282706d70da4dcd27a58\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\CT13\.android\build-cache\397d2ea81f88e0bd49534782dd160ae438d48534\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\CT13\.android\build-cache\7248f2aa9acdac222738a856f317c62cfeef7fca\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:21:9-41
+	android:supportsRtl
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:23:9-35
+	android:roundIcon
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:22:9-48
+	android:allowBackup
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:19:9-35
+	android:icon
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:20:9-43
+	android:theme
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:24:9-40
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:18:9-42
+activity#fitness365.com.fitness365.SplashScreenActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:26:9-37:20
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:29:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:28:13-45
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:31:13-60
+	android:theme
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:30:13-56
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:27:13-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:35:27-74
+activity#fitness365.com.fitness365.LoginActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:38:9-42:63
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:41:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:40:13-29
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:42:13-60
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:39:13-42
+activity#fitness365.com.fitness365.SchoolActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:44:9-48:63
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:47:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:46:13-29
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:48:13-60
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:45:13-43
+activity#fitness365.com.fitness365.TimeActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:50:9-54:63
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:53:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:52:13-29
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:54:13-60
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:51:13-41
+activity#fitness365.com.fitness365.ForgotPasswordActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:56:9-60:63
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:59:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:58:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:60:13-60
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:57:13-51
+activity#fitness365.com.fitness365.HomeActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:63:9-67:63
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:66:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:65:13-36
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:67:13-60
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:64:13-41
+activity#fitness365.com.fitness365.TakeTestActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:69:9-73:63
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:72:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:71:13-38
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:73:13-60
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:70:13-45
+activity#fitness365.com.fitness365.TestActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:75:9-79:63
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:78:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:77:13-38
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:79:13-60
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:76:13-41
+activity#fitness365.com.fitness365.ShowSubTestActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:81:9-85:63
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:84:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:83:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:85:13-60
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:82:13-48
+activity#fitness365.com.fitness365.ScanActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:88:9-92:63
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:91:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:90:13-29
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:92:13-60
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:89:13-41
+activity#fitness365.com.fitness365.DistanceActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:94:9-98:76
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:97:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:96:13-37
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:98:13-73
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:95:13-45
+activity#fitness365.com.fitness365.WeightActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:100:9-104:76
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:103:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:102:13-35
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:104:13-73
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:101:13-43
+activity#fitness365.com.fitness365.HeightActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:106:9-110:76
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:109:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:108:13-35
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:110:13-73
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:107:13-43
+activity#fitness365.com.fitness365.FixedScoreActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:112:9-116:76
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:115:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:114:13-40
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:116:13-73
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:113:13-47
+activity#fitness365.com.fitness365.CountActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:118:9-122:76
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:121:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:120:13-34
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:122:13-73
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:119:13-42
+activity#fitness365.com.fitness365.BalanceActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:124:9-128:76
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:127:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:126:13-36
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:128:13-73
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:125:13-44
+activity#fitness365.com.fitness365.TestStatusReportActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:130:9-134:76
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:133:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:132:13-29
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:134:13-73
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:131:13-53
+activity#fitness365.com.fitness365.TestStatusActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:136:9-140:76
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:139:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:138:13-29
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:140:13-73
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:137:13-47
+activity#fitness365.com.fitness365.OptionsActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:142:9-146:76
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:145:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:144:13-29
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:146:13-73
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:143:13-44
+activity#fitness365.com.fitness365.DashBoardActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:148:9-152:76
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:151:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:150:13-29
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:152:13-73
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:149:13-46
+activity#fitness365.com.fitness365.ProfileActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:154:9-159:47
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:157:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:156:13-29
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:158:13-73
+	android:theme
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:159:13-45
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:155:13-44
+activity#fitness365.com.fitness365.ViewAttendanceActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:161:9-165:76
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:164:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:163:13-29
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:165:13-73
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:162:13-51
+activity#fitness365.com.fitness365.MyLogBoardActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:167:9-171:76
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:170:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:169:13-29
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:171:13-73
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:168:13-47
+activity#fitness365.com.fitness365.DartBoardActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:173:9-177:76
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:176:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:175:13-29
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:177:13-73
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:174:13-46
+activity#fitness365.com.fitness365.ActiveConnectActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:179:9-183:76
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:182:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:181:13-29
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:183:13-73
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:180:13-50
+activity#fitness365.com.fitness365.FingerprintActivity
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:186:9-190:76
+	android:screenOrientation
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:189:13-49
+	android:label
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:188:13-29
+	android:windowSoftInputMode
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:190:13-73
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:187:13-48
+meta-data#com.google.android.gms.versiom
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:192:9-193:68
+	android:value
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:193:13-66
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:192:20-65
+meta-data#io.fabric.ApiKey
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:197:9-199:72
+	android:value
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:199:13-69
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:198:13-44
+receiver#fitness365.com.fitness365.receiver.AutoSyncReceiver
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:202:9-207:20
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:203:13-54
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:204:13-206:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:205:17-79
+	android:name
+		ADDED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml:205:25-76
+uses-sdk
+INJECTED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\CT13\.android\build-cache\d6f960fdf2e4d0dc8b7674210394d1805f42751e\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\CT13\.android\build-cache\9f79c1da4769a96c944aa16d14d81aae0e29475e\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\CT13\.android\build-cache\195ff64ea4703e329747f342127f4331eb5b7d95\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] C:\Users\CT13\.android\build-cache\a6980390a5e5bb8f80061493fcc46b1ccc87feb2\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\CT13\.android\build-cache\7efe0dfdc48b5b4027919f7f885800a43f2ec7ce\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services:9.0.0] C:\Users\CT13\.android\build-cache\e942fc9b8780d87a04ea97b322c280fdee786283\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-ads:9.0.0] C:\Users\CT13\.android\build-cache\da8ff6f39ce076fa5f545c538e3634b685233af3\output\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.0.0] C:\Users\CT13\.android\build-cache\add96cdce723acdfd840b3c4339b5fa3609d8c31\output\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.0.0] C:\Users\CT13\.android\build-cache\e769dab8742bc21bd62a20a7051bad7fd9be4994\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\CT13\.android\build-cache\cdfbdb6bcc3cda83c7116c87d4ef679829320299\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-auth:9.0.0] C:\Users\CT13\.android\build-cache\bd18633b2ebaefad560a559ecd36e27b24c8bfa1\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-cast:9.0.0] C:\Users\CT13\.android\build-cache\5b4e4b1481686c8872fe90f4130cf04af821229c\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\CT13\.android\build-cache\14a37e2e6d044ccaf38833d9445e059f71921f57\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\CT13\.android\build-cache\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\CT13\.android\build-cache\b8f0619576dcb9b9cdad0087fb450476d11b464c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\CT13\.android\build-cache\eaa8fbbe36679ba39c8cd7b3c3acaee03e5e7276\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-config:9.0.0] C:\Users\CT13\.android\build-cache\0d09a4edbc162be9a5df5c586f62b6422d1f5d7e\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-crash:9.0.0] C:\Users\CT13\.android\build-cache\b7b11b3813da24c7a31df182b01ea4c1825fd123\output\AndroidManifest.xml:22:5-42
+MERGED from [com.google.firebase:firebase-auth:9.0.0] C:\Users\CT13\.android\build-cache\76c6ee9fd816fd0693bca22505c7b041caa82d52\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.0.0] C:\Users\CT13\.android\build-cache\8fdd73135b78d1ba1ce5563b39b5147d57413ffe\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.0.0] C:\Users\CT13\.android\build-cache\00966f5d1fb2491a74173c3a68629412381ee285\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database:9.0.0] C:\Users\CT13\.android\build-cache\e76fcaace56fc2f1fb0520618182d14c42ed6e05\output\AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database-connection:9.0.0] C:\Users\CT13\.android\build-cache\f5fa36a34596ae0f2a0ae0d89cee029e191a8d05\output\AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-messaging:9.0.0] C:\Users\CT13\.android\build-cache\a19fcf234d760af06f27b385e3d9517f28627e43\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-storage:9.0.0] C:\Users\CT13\.android\build-cache\522c5accd7285e0d04c138ade84003e88cb867ac\output\AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage-common:9.0.0] C:\Users\CT13\.android\build-cache\8a18efc96412ec68b9c52b363238ec00fa3cffce\output\AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-fitness:9.0.0] C:\Users\CT13\.android\build-cache\f2d565567ade9c0df2b484057a3136a4fa5ee214\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:9.0.0] C:\Users\CT13\.android\build-cache\4d7f4e06f4968f87649a552eb8ca1df503cb63c7\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:9.0.0] C:\Users\CT13\.android\build-cache\77e5c03f74aaa45c501fd0e25040791da00c09cb\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.0.0] C:\Users\CT13\.android\build-cache\1578dada6c21d84fa31bcc17c5211924e8ccb1ed\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.0.0] C:\Users\CT13\.android\build-cache\891b7eb8451f4c0fad658f7f81ea3890bc7f409a\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.0.0] C:\Users\CT13\.android\build-cache\f5b56c600e15e8b0a34558018351e9bc841946ff\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:9.0.0] C:\Users\CT13\.android\build-cache\a5d5fadf08802db27e2d07bc09af3bbc49c18e6f\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:9.0.0] C:\Users\CT13\.android\build-cache\74ed127fc678cb11e4066ef486014c95b6e69914\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:9.0.0] C:\Users\CT13\.android\build-cache\b49ca5363c75fae7e9d8649a01a8469e733b4545\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:9.0.0] C:\Users\CT13\.android\build-cache\7d51d2a2e050cbabf71bb00628ce9ae1bccef4db\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:9.0.0] C:\Users\CT13\.android\build-cache\a9e8c4589eecc5c7e8757c55386799f4bbf8438a\output\AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:9.0.0] C:\Users\CT13\.android\build-cache\cbc593c175c437e4f6fba7c70d023aaaa3f4dec6\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:9.0.0] C:\Users\CT13\.android\build-cache\04eb9909f11cd5befdd854c59dd8dafce79d195c\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.0] C:\Users\CT13\.android\build-cache\9b9af2513fdd53ec262f615997e41af62b5b8a42\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.0.0] C:\Users\CT13\.android\build-cache\d5afec167f4920435c8e94326da6bc2f362b157a\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.0.0] C:\Users\CT13\.android\build-cache\389334e87aead20e825ea8664a6372e4c0e1010c\output\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:9.0.0] C:\Users\CT13\.android\build-cache\b6c553e58114b6e36877b9a32a354dc003961bd3\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.0.0] C:\Users\CT13\.android\build-cache\b7755bd6a5f296f2a03ee097e7ec715b2ba3bad5\output\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-wearable:9.0.0] C:\Users\CT13\.android\build-cache\8029478aa0f2a5a76b2d6f42622d0c1e7492877d\output\AndroidManifest.xml:18:5-42
+MERGED from [com.github.nisrulz:qreader:1.0.3] C:\Users\CT13\.android\build-cache\2e1d8d889c61a35cab6f608976d8619a31cdb469\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android.gms:play-services-vision:9.0.0] C:\Users\CT13\.android\build-cache\5deb385706f13067c93dd3733fd7c547a7ea892a\output\AndroidManifest.xml:4:5-42
+MERGED from [com.android.support:cardview-v7:23.3.0] C:\Users\CT13\.android\build-cache\e2617adc5a94c4e7f0fd38928b8bc96c7e3c70be\output\AndroidManifest.xml:20:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\CT13\.android\build-cache\c28027080a946b5dd4bec4a31bb765f07fdf76be\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\CT13\.android\build-cache\c04853fdf3a2f81f9801e80d8e910a0f4a3fb6f6\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\CT13\.android\build-cache\c8a2f327021c7c248d829fca82500e7167ae7abf\output\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\CT13\.android\build-cache\68c28031c688197d37d800706493d47803e1fc8c\output\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\CT13\.android\build-cache\ef7fe0a5947af019a1ab1f105e4c3a4dabde13fd\output\AndroidManifest.xml:27:5-43
+MERGED from [f365_phase2:echoprintLib:unspecified] D:\Venkata\f365_phase2\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:9.0.0] C:\Users\CT13\.android\build-cache\392d65133d8b17df9b3309bc2f1b743257698543\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\CT13\.android\build-cache\387682b1f8c00cc967922f90aae655b6c0214c62\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\CT13\.android\build-cache\5f8a2ac3657332f3c8b3daf223dcaa7b9c8f862d\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\CT13\.android\build-cache\0ac31144aa676483b75144f504069e09e655dfed\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.0.0] C:\Users\CT13\.android\build-cache\f678f33d8b507d92bdf25b9eecfd62026a46ad38\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] C:\Users\CT13\.android\build-cache\9089e79a192815969795facf8cd23e4eb37030c7\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\CT13\.android\build-cache\9153ca67050892fde5ec77f9752c360fb383f003\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\CT13\.android\build-cache\da77e2eb3b92c27a08391be65e06ac06ae554292\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\CT13\.android\build-cache\f513656e1b6ad5d6d3ef907cf0dfb65ecf6f041f\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\CT13\.android\build-cache\5d63f9cff6b67f4e6e36b96e7c454733f0dee889\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\CT13\.android\build-cache\8434ff7ade9bb3571fa7282706d70da4dcd27a58\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\CT13\.android\build-cache\397d2ea81f88e0bd49534782dd160ae438d48534\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\CT13\.android\build-cache\7248f2aa9acdac222738a856f317c62cfeef7fca\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\CT13\.android\build-cache\195ff64ea4703e329747f342127f4331eb5b7d95\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Venkata\f365_phase2\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\CT13\.android\build-cache\195ff64ea4703e329747f342127f4331eb5b7d95\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\CT13\.android\build-cache\a6980390a5e5bb8f80061493fcc46b1ccc87feb2\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\CT13\.android\build-cache\7efe0dfdc48b5b4027919f7f885800a43f2ec7ce\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\CT13\.android\build-cache\b5c5a9ed8f412d8eabc6fde4e1357f88124893b2\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\CT13\.android\build-cache\b8f0619576dcb9b9cdad0087fb450476d11b464c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\CT13\.android\build-cache\eaa8fbbe36679ba39c8cd7b3c3acaee03e5e7276\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\CT13\.android\build-cache\da77e2eb3b92c27a08391be65e06ac06ae554292\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\CT13\.android\build-cache\f513656e1b6ad5d6d3ef907cf0dfb65ecf6f041f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\CT13\.android\build-cache\5d63f9cff6b67f4e6e36b96e7c454733f0dee889\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\CT13\.android\build-cache\8434ff7ade9bb3571fa7282706d70da4dcd27a58\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\CT13\.android\build-cache\397d2ea81f88e0bd49534782dd160ae438d48534\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\CT13\.android\build-cache\7248f2aa9acdac222738a856f317c62cfeef7fca\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\CT13\.android\build-cache\195ff64ea4703e329747f342127f4331eb5b7d95\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\CT13\.android\build-cache\195ff64ea4703e329747f342127f4331eb5b7d95\output\AndroidManifest.xml:26:9-47
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.0.0] C:\Users\CT13\.android\build-cache\add96cdce723acdfd840b3c4339b5fa3609d8c31\output\AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.0.0] C:\Users\CT13\.android\build-cache\add96cdce723acdfd840b3c4339b5fa3609d8c31\output\AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.0.0] C:\Users\CT13\.android\build-cache\add96cdce723acdfd840b3c4339b5fa3609d8c31\output\AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.0.0] C:\Users\CT13\.android\build-cache\add96cdce723acdfd840b3c4339b5fa3609d8c31\output\AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.0.0] C:\Users\CT13\.android\build-cache\add96cdce723acdfd840b3c4339b5fa3609d8c31\output\AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.0.0] C:\Users\CT13\.android\build-cache\add96cdce723acdfd840b3c4339b5fa3609d8c31\output\AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.0.0] C:\Users\CT13\.android\build-cache\add96cdce723acdfd840b3c4339b5fa3609d8c31\output\AndroidManifest.xml:30:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:9.0.0] C:\Users\CT13\.android\build-cache\e769dab8742bc21bd62a20a7051bad7fd9be4994\output\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.0] C:\Users\CT13\.android\build-cache\9b9af2513fdd53ec262f615997e41af62b5b8a42\output\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\CT13\.android\build-cache\387682b1f8c00cc967922f90aae655b6c0214c62\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\CT13\.android\build-cache\5f8a2ac3657332f3c8b3daf223dcaa7b9c8f862d\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:9.0.0] C:\Users\CT13\.android\build-cache\e769dab8742bc21bd62a20a7051bad7fd9be4994\output\AndroidManifest.xml:25:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\CT13\.android\build-cache\cdfbdb6bcc3cda83c7116c87d4ef679829320299\output\AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\CT13\.android\build-cache\cdfbdb6bcc3cda83c7116c87d4ef679829320299\output\AndroidManifest.xml:23:17-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\CT13\.android\build-cache\cdfbdb6bcc3cda83c7116c87d4ef679829320299\output\AndroidManifest.xml:24:17-63
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\CT13\.android\build-cache\cdfbdb6bcc3cda83c7116c87d4ef679829320299\output\AndroidManifest.xml:22:17-48
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\CT13\.android\build-cache\cdfbdb6bcc3cda83c7116c87d4ef679829320299\output\AndroidManifest.xml:25:13-28:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\CT13\.android\build-cache\cdfbdb6bcc3cda83c7116c87d4ef679829320299\output\AndroidManifest.xml:26:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\CT13\.android\build-cache\cdfbdb6bcc3cda83c7116c87d4ef679829320299\output\AndroidManifest.xml:26:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\CT13\.android\build-cache\cdfbdb6bcc3cda83c7116c87d4ef679829320299\output\AndroidManifest.xml:27:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\CT13\.android\build-cache\cdfbdb6bcc3cda83c7116c87d4ef679829320299\output\AndroidManifest.xml:27:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:9.0.0] C:\Users\CT13\.android\build-cache\bd18633b2ebaefad560a559ecd36e27b24c8bfa1\output\AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:9.0.0] C:\Users\CT13\.android\build-cache\bd18633b2ebaefad560a559ecd36e27b24c8bfa1\output\AndroidManifest.xml:23:19-52
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.0.0] C:\Users\CT13\.android\build-cache\bd18633b2ebaefad560a559ecd36e27b24c8bfa1\output\AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:9.0.0] C:\Users\CT13\.android\build-cache\bd18633b2ebaefad560a559ecd36e27b24c8bfa1\output\AndroidManifest.xml:22:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.0.0] C:\Users\CT13\.android\build-cache\bd18633b2ebaefad560a559ecd36e27b24c8bfa1\output\AndroidManifest.xml:21:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:9.0.0] C:\Users\CT13\.android\build-cache\bd18633b2ebaefad560a559ecd36e27b24c8bfa1\output\AndroidManifest.xml:28:9-31:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.0.0] C:\Users\CT13\.android\build-cache\bd18633b2ebaefad560a559ecd36e27b24c8bfa1\output\AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:9.0.0] C:\Users\CT13\.android\build-cache\bd18633b2ebaefad560a559ecd36e27b24c8bfa1\output\AndroidManifest.xml:31:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.0.0] C:\Users\CT13\.android\build-cache\bd18633b2ebaefad560a559ecd36e27b24c8bfa1\output\AndroidManifest.xml:29:13-58
+service#com.google.firebase.crash.internal.service.FirebaseCrashReceiverService
+ADDED from [com.google.firebase:firebase-crash:9.0.0] C:\Users\CT13\.android\build-cache\b7b11b3813da24c7a31df182b01ea4c1825fd123\output\AndroidManifest.xml:26:9-27:50
+	android:process
+		ADDED from [com.google.firebase:firebase-crash:9.0.0] C:\Users\CT13\.android\build-cache\b7b11b3813da24c7a31df182b01ea4c1825fd123\output\AndroidManifest.xml:27:13-48
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:9.0.0] C:\Users\CT13\.android\build-cache\b7b11b3813da24c7a31df182b01ea4c1825fd123\output\AndroidManifest.xml:26:18-79
+service#com.google.firebase.crash.internal.service.FirebaseCrashSenderService
+ADDED from [com.google.firebase:firebase-crash:9.0.0] C:\Users\CT13\.android\build-cache\b7b11b3813da24c7a31df182b01ea4c1825fd123\output\AndroidManifest.xml:29:9-30:50
+	android:process
+		ADDED from [com.google.firebase:firebase-crash:9.0.0] C:\Users\CT13\.android\build-cache\b7b11b3813da24c7a31df182b01ea4c1825fd123\output\AndroidManifest.xml:30:13-48
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:9.0.0] C:\Users\CT13\.android\build-cache\b7b11b3813da24c7a31df182b01ea4c1825fd123\output\AndroidManifest.xml:29:18-77
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.0.0] C:\Users\CT13\.android\build-cache\a19fcf234d760af06f27b385e3d9517f28627e43\output\AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.0.0] C:\Users\CT13\.android\build-cache\a19fcf234d760af06f27b385e3d9517f28627e43\output\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.0.0] C:\Users\CT13\.android\build-cache\a19fcf234d760af06f27b385e3d9517f28627e43\output\AndroidManifest.xml:25:13-82
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.0.0] C:\Users\CT13\.android\build-cache\a19fcf234d760af06f27b385e3d9517f28627e43\output\AndroidManifest.xml:27:13-29:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:9.0.0] C:\Users\CT13\.android\build-cache\a19fcf234d760af06f27b385e3d9517f28627e43\output\AndroidManifest.xml:27:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.0.0] C:\Users\CT13\.android\build-cache\a19fcf234d760af06f27b385e3d9517f28627e43\output\AndroidManifest.xml:28:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.0.0] C:\Users\CT13\.android\build-cache\a19fcf234d760af06f27b385e3d9517f28627e43\output\AndroidManifest.xml:28:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:9.0.0] C:\Users\CT13\.android\build-cache\1578dada6c21d84fa31bcc17c5211924e8ccb1ed\output\AndroidManifest.xml:21:5-82
+MERGED from [com.google.android.gms:play-services-iid:9.0.0] C:\Users\CT13\.android\build-cache\f5b56c600e15e8b0a34558018351e9bc841946ff\output\AndroidManifest.xml:21:5-82
+MERGED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:9.0.0] C:\Users\CT13\.android\build-cache\1578dada6c21d84fa31bcc17c5211924e8ccb1ed\output\AndroidManifest.xml:21:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.0.0] C:\Users\CT13\.android\build-cache\d5afec167f4920435c8e94326da6bc2f362b157a\output\AndroidManifest.xml:25:9-27:42
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.0.0] C:\Users\CT13\.android\build-cache\d5afec167f4920435c8e94326da6bc2f362b157a\output\AndroidManifest.xml:27:17-39
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.0.0] C:\Users\CT13\.android\build-cache\d5afec167f4920435c8e94326da6bc2f362b157a\output\AndroidManifest.xml:26:17-41
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.0.0] C:\Users\CT13\.android\build-cache\d5afec167f4920435c8e94326da6bc2f362b157a\output\AndroidManifest.xml:25:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.0.0] C:\Users\CT13\.android\build-cache\d5afec167f4920435c8e94326da6bc2f362b157a\output\AndroidManifest.xml:28:9-37:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.0.0] C:\Users\CT13\.android\build-cache\d5afec167f4920435c8e94326da6bc2f362b157a\output\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.0.0] C:\Users\CT13\.android\build-cache\d5afec167f4920435c8e94326da6bc2f362b157a\output\AndroidManifest.xml:29:13-87
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.0.0] C:\Users\CT13\.android\build-cache\d5afec167f4920435c8e94326da6bc2f362b157a\output\AndroidManifest.xml:31:13-36:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.0.0] C:\Users\CT13\.android\build-cache\d5afec167f4920435c8e94326da6bc2f362b157a\output\AndroidManifest.xml:32:17-72
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.0.0] C:\Users\CT13\.android\build-cache\d5afec167f4920435c8e94326da6bc2f362b157a\output\AndroidManifest.xml:32:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.0.0] C:\Users\CT13\.android\build-cache\d5afec167f4920435c8e94326da6bc2f362b157a\output\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.0.0] C:\Users\CT13\.android\build-cache\d5afec167f4920435c8e94326da6bc2f362b157a\output\AndroidManifest.xml:33:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.0.0] C:\Users\CT13\.android\build-cache\d5afec167f4920435c8e94326da6bc2f362b157a\output\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.0.0] C:\Users\CT13\.android\build-cache\d5afec167f4920435c8e94326da6bc2f362b157a\output\AndroidManifest.xml:35:27-75
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.0.0] C:\Users\CT13\.android\build-cache\b7755bd6a5f296f2a03ee097e7ec715b2ba3bad5\output\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.0.0] C:\Users\CT13\.android\build-cache\b7755bd6a5f296f2a03ee097e7ec715b2ba3bad5\output\AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.0.0] C:\Users\CT13\.android\build-cache\b7755bd6a5f296f2a03ee097e7ec715b2ba3bad5\output\AndroidManifest.xml:24:8-31
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from [com.github.nisrulz:qreader:1.0.3] C:\Users\CT13\.android\build-cache\2e1d8d889c61a35cab6f608976d8619a31cdb469\output\AndroidManifest.xml:32:9-34:39
+	android:value
+		ADDED from [com.github.nisrulz:qreader:1.0.3] C:\Users\CT13\.android\build-cache\2e1d8d889c61a35cab6f608976d8619a31cdb469\output\AndroidManifest.xml:34:13-36
+	android:name
+		ADDED from [com.github.nisrulz:qreader:1.0.3] C:\Users\CT13\.android\build-cache\2e1d8d889c61a35cab6f608976d8619a31cdb469\output\AndroidManifest.xml:33:13-70
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\CT13\.android\build-cache\387682b1f8c00cc967922f90aae655b6c0214c62\output\AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\CT13\.android\build-cache\5f8a2ac3657332f3c8b3daf223dcaa7b9c8f862d\output\AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\CT13\.android\build-cache\387682b1f8c00cc967922f90aae655b6c0214c62\output\AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\CT13\.android\build-cache\387682b1f8c00cc967922f90aae655b6c0214c62\output\AndroidManifest.xml:29:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\CT13\.android\build-cache\387682b1f8c00cc967922f90aae655b6c0214c62\output\AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\CT13\.android\build-cache\387682b1f8c00cc967922f90aae655b6c0214c62\output\AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\CT13\.android\build-cache\387682b1f8c00cc967922f90aae655b6c0214c62\output\AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\CT13\.android\build-cache\387682b1f8c00cc967922f90aae655b6c0214c62\output\AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\CT13\.android\build-cache\5f8a2ac3657332f3c8b3daf223dcaa7b9c8f862d\output\AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\CT13\.android\build-cache\387682b1f8c00cc967922f90aae655b6c0214c62\output\AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\CT13\.android\build-cache\387682b1f8c00cc967922f90aae655b6c0214c62\output\AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\CT13\.android\build-cache\387682b1f8c00cc967922f90aae655b6c0214c62\output\AndroidManifest.xml:37:11-82
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\CT13\.android\build-cache\0ac31144aa676483b75144f504069e09e655dfed\output\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\CT13\.android\build-cache\0ac31144aa676483b75144f504069e09e655dfed\output\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\CT13\.android\build-cache\0ac31144aa676483b75144f504069e09e655dfed\output\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\CT13\.android\build-cache\0ac31144aa676483b75144f504069e09e655dfed\output\AndroidManifest.xml:20:19-85
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:33:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:52:13-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:54:13-56:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:54:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:55:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\CT13\.android\build-cache\6335226521e0cd7b69028a83844d2671f73dc187\output\AndroidManifest.xml:55:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\CT13\.android\build-cache\f678f33d8b507d92bdf25b9eecfd62026a46ad38\output\AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\CT13\.android\build-cache\f678f33d8b507d92bdf25b9eecfd62026a46ad38\output\AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\CT13\.android\build-cache\f678f33d8b507d92bdf25b9eecfd62026a46ad38\output\AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\CT13\.android\build-cache\f678f33d8b507d92bdf25b9eecfd62026a46ad38\output\AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\CT13\.android\build-cache\f678f33d8b507d92bdf25b9eecfd62026a46ad38\output\AndroidManifest.xml:9:13-58
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\CT13\.android\build-cache\9153ca67050892fde5ec77f9752c360fb383f003\output\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\CT13\.android\build-cache\9153ca67050892fde5ec77f9752c360fb383f003\output\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\CT13\.android\build-cache\9153ca67050892fde5ec77f9752c360fb383f003\output\AndroidManifest.xml:22:13-58

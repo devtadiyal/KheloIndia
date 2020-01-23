@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:visibility="visible"
+            app:titleTextAppearance="@style/Toolbar.TitleText"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:text="@string/activity_log"
+                    android:id="@+id/activity_log_title_tv"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:id="@+id/activity_log_tv"
+                    android:layout_below="@+id/activity_log_title_tv"/>
+
+
+
+
+                    />
+            </RelativeLayout>
+
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle_curved_blue"
+        android:textSize="16sp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/school_tv"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--<RadioGroup-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:id="@+id/student_radio_group_one">-->
+
+
+            <!--<RadioButton-->
+            <!--android:id="@+id/school_rb"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--android:text="At School"-->
+            <!--android:textColor="@color/text_color"-->
+            <!--android:textSize="16sp"-->
+            <!--/>-->
+
+            <!--<RadioButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="On Leave"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textColor="@color/text_color"-->
+            <!--android:id="@+id/leave_rb"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--/>-->
+
+            <!--<RadioButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Holiday"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textColor="@color/text_color"-->
+            <!--android:id="@+id/holiday_rb"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--/>-->
+
+
+            <!--</RadioGroup>-->
+
+            <!--<RadioGroup-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:id="@+id/student_radio_group_two">-->
+
+
+            <!--<RadioButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="PTM"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textColor="@color/text_color"-->
+            <!--android:id="@+id/ptm_rb"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--/>-->
+
+            <!--<RadioButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Training"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textColor="@color/text_color"-->
+            <!--android:id="@+id/training_rb"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--/>-->
+            <!--</RadioGroup>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/rectangle"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/school_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:background="@null"
+                    android:text="At School"
+                    android:textAllCaps="false"
+                    android:textColor="@color/grey"
+                    android:textSize="15sp"
+
+                  />
+
+                <Button
+                    android:id="@+id/leave_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:background="@null"
+                    android:text="On Leave"
+                    android:textAllCaps="false"
+                    android:textColor="@color/grey"
+                    android:textSize="15sp"
+                  />
+
+
+                <Button
+                    android:id="@+id/holiday_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:background="@null"
+                    android:text="Holiday"
+                    android:textAllCaps="false"
+                    android:textColor="@color/grey"
+                    android:textSize="15sp" />
+
+
+                <!--<Button-->
+                    <!--android:id="@+id/ptm_btn"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="0.2"-->
+                    <!--android:background="@null"-->
+                    <!--android:text="PTM"-->
+                    <!--android:textAllCaps="false"-->
+                    <!--android:textColor="@color/grey"-->
+                    <!--android:textSize="12sp" />-->
+
+
+                <!--<Button-->
+                    <!--android:id="@+id/training_btn"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="0.2"-->
+                    <!--android:background="@null"-->
+                    <!--android:text="Training"-->
+                    <!--android:textAllCaps="false"-->
+                    <!--android:textColor="@color/grey"-->
+                    <!--android:textSize="12sp" />-->
+
+                <Button
+                    android:id="@+id/office_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:background="@null"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:text="At Office"
+                    android:textAllCaps="false"
+                    android:textColor="@color/grey"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/at_school_lt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/student_radio_group_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/shape_rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:text="SHAPE 365"
+                        android:textColor="@color/text_color"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/sports_rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:text="TOP Sports"
+                        android:textColor="@color/text_color"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/other_rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:text="Other"
+                        android:textColor="@color/text_color"
+                        android:textSize="15sp" />
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="0.60"
+                        android:background="@drawable/rectangle">
+
+                        <Spinner
+                            android:id="@+id/class_spin"
+                            style="@style/Spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.40"
+                        android:background="@drawable/rectangle">
+
+                        <Spinner
+                            android:id="@+id/period_spin"
+                            style="@style/Spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            />
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:id="@+id/shape_sports_other_spin_rlt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/rectangle"
+
+                    >
+
+                    <Spinner
+                        android:id="@+id/shape_sports_other_spin"
+                        style="@style/Spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dialog"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/sports_skill_spin_rlt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/rectangle"
+                    >
+
+                    <Spinner
+                        android:id="@+id/sports_skill_spin"
+                        style="@style/Spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dialog"
+                      />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/other_lt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/boys_edt"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/boy_i"
+                        android:drawablePadding="8dp"
+                        android:hint="Boys"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/text_color"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/girls_edt"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/girl_blue_i"
+                        android:drawablePadding="8dp"
+                        android:hint="Girls"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/text_color"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/log_lt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+              >
+
+                <include layout="@layout/log_group" />
+
+                <kheloindia.com.assessment.util.NonScrollListView
+                    android:id="@+id/log_list_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@null"
+                    android:dividerHeight="0dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"/>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/remark_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@drawable/pencil_i"
+                android:drawablePadding="8dp"
+                android:hint="Remarks"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/text_color"
+                android:textSize="16sp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/reset_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:stateListAnimator="@null"
+                    android:text="RESET"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/save_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/take_test_button"
+                    android:stateListAnimator="@null"
+                    android:text="SAVE"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

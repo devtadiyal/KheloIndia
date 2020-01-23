@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                android:visibility="visible"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:titleTextAppearance="@style/Toolbar.TitleText">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="50dp"
+                        android:layout_toLeftOf="@+id/profile_img"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/welcome_student_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Welcome Santhosh"
+                            android:textColor="@color/white"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/school_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableRight="@android:drawable/arrow_down_float"
+                            android:drawablePadding="6dp"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:text="Rabindranath public sr sec school"
+                            android:textColor="@color/white"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+
+
+                    <!--<ImageView-->
+                    <!--android:id="@+id/profile_img"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginRight="16dp"-->
+                    <!--android:src="@drawable/person_black_i"-->
+                    <!--/>-->
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            android:id="@+id/container_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:padding="8dp"-->
+            <!--android:src="@drawable/sync_i"-->
+            <!--android:background="@drawable/gradient"-->
+            <!--android:id="@+id/sync_img"/>-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical"-->
+            <!--android:weightSum="10">-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="30dp"
+                android:paddingTop="60dp"
+                android:paddingRight="30dp">
+
+                <ImageView
+                    android:id="@+id/school_big_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/assessment_i" />
+
+                <TextView
+                    android:id="@+id/school_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="Rabindranath World School"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/retest_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/all_children"
+                    android:textColor="@color/grey" />
+
+                <Button
+                    android:id="@+id/take_test_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/take_test_button"
+                    android:stateListAnimator="@null"
+                    android:text="TAKE TEST"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/view_report_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/color_accent_border_button"
+                    android:stateListAnimator="@null"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/no_of_students_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/text_color" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/export_lt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/export_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Records to Export:"
+                        android:textColor="@color/text_color" />
+
+                    <TextView
+                        android:id="@+id/sync_data_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/export_tv"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_toRightOf="@+id/export_iv"
+                        android:text=""
+                        android:textColor="@color/colorPrimaryDark"
+
+                        />
+
+                    <ImageView
+                        android:id="@+id/export_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/export_tv"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/export_i" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/export_lt">
+
+                    <TextView
+                        android:id="@+id/import_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Records Imported:"
+                        android:textColor="@color/text_color" />
+
+                    <TextView
+                        android:id="@+id/synced_data_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/import_tv"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_toRightOf="@+id/import_iv"
+                        android:text=""
+                        android:textColor="@color/colorPrimaryDark" />
+
+                    <ImageView
+                        android:id="@+id/import_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/import_tv"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/import_i" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:paddingLeft="30dp"
+                android:paddingTop="0dp"
+                android:paddingRight="30dp"
+                android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/last_synced_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Last synced time" />
+
+                    <TextView
+                        android:id="@+id/last_synced_time_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="26 Dec 18, 5:57 PM"
+                        android:textColor="@color/colorPrimaryDark" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!--</LinearLayout>-->
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/sync_tv"-->
+    <!--android:layout_marginRight="10dp"-->
+    <!--android:text="Refresh"-->
+    <!--android:textColor="@color/colorPrimary"-->
+    <!--android:textSize="12sp"-->
+    <!--android:layout_toLeftOf="@+id/sync_img"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--/>-->
+    <!--<android.support.design.widget.FloatingActionButton-->
+    <!--android:id="@+id/sync_img"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/sync_i"-->
+    <!--app:backgroundTint="@color/colorPrimary"-->
+    <!--app:fabSize="normal"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--app:elevation="0dp"-->
+    <!--/>-->
+
+
+    <!--</RelativeLayout>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/sync_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/sync_img"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/sync_img"
+            android:text="Refresh"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/sync_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom|end"
+            android:src="@drawable/sync_i"
+            app:backgroundTint="@color/colorPrimary"
+            app:elevation="0dp"
+            app:fabSize="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sync_all_rlt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/sync_all_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/sync_all_img"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/sync_all_img"
+            android:text="@string/sync_all"
+            android:textColor="@color/colorAccent"
+            android:textSize="10sp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/sync_all_img"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="5dp"
+            android:elevation="0dp"
+            android:src="@drawable/sync_i"
+            app:fabCustomSize="40dp"
+            app:fabSize="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sync_new_rlt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/sync_new_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/sync_new_img"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/sync_new_img"
+            android:text="@string/sync_new"
+            android:textColor="@color/colorAccent"
+            android:textSize="10sp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/sync_new_img"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="5dp"
+            android:elevation="0dp"
+            android:src="@drawable/sync_i"
+            app:fabCustomSize="40dp"
+            app:fabSize="normal"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout><!-- android:textColor="#64A245" -->

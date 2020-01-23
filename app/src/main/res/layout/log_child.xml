@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/student_tv"
+        android:text="Student 1"
+        android:textSize="14sp"
+        android:textColor="@color/grey"
+        android:layout_alignBaseline="@+id/student_spin"
+       />
+
+
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/student_spin"
+        style="@style/Spinner"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        />
+
+
+
+
+</RelativeLayout>

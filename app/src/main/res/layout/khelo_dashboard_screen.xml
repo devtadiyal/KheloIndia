@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="-15dp"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ministry_of_youth_i"
+            android:id="@+id/gov_logo_iv"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="-20dp"
+
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/kheloindia_i"
+            android:id="@+id/khelo_logo_iv"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="-20dp"
+
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/sai_i"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="-20dp"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+        
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/take_test_button"
+            android:textColor="@color/white"
+            android:text="@string/start_fitness"
+            android:id="@+id/fitness_assess_btn"
+            android:stateListAnimator="@null"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/learn_play_layout"
+            android:weightSum="2"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/fitness_assess_btn">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/color_accent_border_button"
+                android:textColor="@color/colorAccent"
+                android:text="@string/learn"
+                android:id="@+id/how_play_btn"
+                android:stateListAnimator="@null"
+                android:layout_marginRight="5dp"/>
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/color_accent_border_button"
+                android:textColor="@color/colorAccent"
+                android:text="@string/play"
+                android:id="@+id/where_play_btn"
+                android:stateListAnimator="@null"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/learn_play_layout"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/learn_play_navigation_text"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="end"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sop"
+                android:text="@string/sop"
+                android:textColor="@color/colorAccent"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:drawableRight="@drawable/download_orange"
+                android:gravity="center"
+                android:drawablePadding="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/admin_manual"
+                android:text="@string/admin_manual"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/colorAccent"
+                android:drawableRight="@drawable/download_orange"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:gravity="center"
+                android:drawablePadding="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ecertificate"
+                android:text="@string/ecetificate"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:visibility="gone"
+                android:paddingRight="0dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/colorAccent"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/download_orange"
+                />
+
+        </LinearLayout>
+
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_marginTop="10dp">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/sop"-->
+                <!--android:text="SOP"-->
+                <!--android:textColor="@color/colorAccent"-->
+                <!--android:textSize="15sp"-->
+                <!--android:padding="10dp"-->
+                <!--android:drawableLeft="@drawable/download_orange"-->
+                <!--android:gravity="center"-->
+                <!--android:drawablePadding="10dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/admin_manual"-->
+                <!--android:text="@string/admin_manual"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:textColor="@color/colorAccent"-->
+                <!--android:drawableLeft="@drawable/download_orange"-->
+                <!--android:textSize="15sp"-->
+                <!--android:padding="10dp"-->
+                <!--android:gravity="center"-->
+                <!--android:drawablePadding="10dp"-->
+                <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+    </RelativeLayout>
+
+
+</LinearLayout>

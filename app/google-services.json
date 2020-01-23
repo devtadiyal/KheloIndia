@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "486085572218",
+    "firebase_url": "https://fitness365-186cd.firebaseio.com",
+    "project_id": "fitness365-186cd",
+    "storage_bucket": "fitness365-186cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486085572218:android:86d261b8275ce74d",
+        "android_client_info": {
+          "package_name": "fitness365.com.fitness365"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486085572218-2h795b37hi2s3b563nmmh0pu8lspp9l6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fitness365.com.fitness365",
+            "certificate_hash": "56e9bfcad71492250bcf9d14a54ba90618453490"
+          }
+        },
+        {
+          "client_id": "486085572218-su4if8l79muqmnlpbegc9vr9upogsfv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgQyrfJOf9z2TINTFyoOl1lrTtsjb0tnE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486085572218-su4if8l79muqmnlpbegc9vr9upogsfv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

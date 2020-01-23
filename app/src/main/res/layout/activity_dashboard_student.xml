@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:visibility="visible"
+            app:titleTextAppearance="@style/Toolbar.TitleText"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/welcome_student_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome Santhosh"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                   />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/logout_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:text="Logout"
+                android:textColor="@color/white" />
+
+           <!-- <ImageView
+                android:id="@+id/profile_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/person_black_i" />-->
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+</android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:numColumns="2"
+            android:stretchMode="columnWidth" />
+
+
+       <!-- &lt;!&ndash; ********* 1st part ***************&ndash;&gt;
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/grey"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/agility_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:paddingRight="@dimen/dashboard_margin_small"
+                android:paddingLeft="@dimen/dashboard_margin_big"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/insights_i"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/insights_layout"
+                    >
+
+                   &lt;!&ndash; <ImageView
+                        android:id="@+id/insights_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_launcher" />&ndash;&gt;
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/agility_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Insights"
+                    android:textColor="@color/black"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/speed_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:paddingRight="@dimen/dashboard_margin_big"
+                android:paddingLeft="@dimen/dashboard_margin_small"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/top_sports_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/top_sports_i"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="15dp">
+
+                   &lt;!&ndash; <ImageView
+                        android:id="@+id/top_sports_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_launcher"  />&ndash;&gt;
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="TOP Sports"
+                    android:textColor="@color/black"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        &lt;!&ndash; ********* 2nd part ***************&ndash;&gt;
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/endurance_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:paddingRight="@dimen/dashboard_margin_small"
+                android:paddingLeft="@dimen/dashboard_margin_big"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape365_i"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/shape_365_layout">
+
+                  &lt;!&ndash;  <ImageView
+                        android:id="@+id/shape_365_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_launcher"
+                        />&ndash;&gt;
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="SHAPE365"
+                    android:textColor="@color/black"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/flexibility_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:paddingRight="@dimen/dashboard_margin_big"
+                android:paddingLeft="@dimen/dashboard_margin_small"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/utilities_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/utilities_i"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="15dp">
+
+                   &lt;!&ndash; <ImageView
+                        android:id="@+id/utilities_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_launcher"  />&ndash;&gt;
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/utilities_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Utilities"
+                    android:textColor="@color/black"
+                    android:singleLine="true"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        &lt;!&ndash; ********* 3rd part ***************&ndash;&gt;
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/gallery_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:paddingRight="@dimen/dashboard_margin_small"
+                android:paddingLeft="@dimen/dashboard_margin_big"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gallery_i"
+                    android:gravity="center"
+                    android:padding="15dp">
+
+                    &lt;!&ndash;   <ImageView
+                        android:id="@+id/gallery_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_launcher" />&ndash;&gt;
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Gallery"
+                    android:textColor="@color/black"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/hand_eye_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:paddingRight="@dimen/dashboard_margin_big"
+                android:paddingLeft="@dimen/dashboard_margin_small"
+                android:orientation="vertical"
+                >
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/profile_i"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="15dp">
+
+                       &lt;!&ndash; <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="invisible"
+                            android:src="@mipmap/ic_launcher" />&ndash;&gt;
+
+                    </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Profile"
+                    android:textColor="@color/black"
+                    android:visibility="visible" />
+
+                </LinearLayout>
+            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <!-- *********** end ******************-->
+
+    </LinearLayout>
+
+<!--
+    android:layout_marginBottom="@dimen/dashboard_margin_small"
+    android:layout_marginLeft="@dimen/dashboard_margin_big"
+    android:layout_marginRight="@dimen/dashboard_margin_small"
+    android:layout_marginTop="@dimen/dashboard_margin_big"-->

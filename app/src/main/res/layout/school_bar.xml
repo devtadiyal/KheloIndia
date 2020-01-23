@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_grey"
+    android:id="@+id/school_bar_rlt"
+    >
+
+    <ImageView
+        android:id="@+id/school_img"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/header_school_i"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:paddingTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/school_txt"
+        android:textColor="@color/grey"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:text="Rabindranath World School"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/school_img"
+        android:layout_toEndOf="@+id/school_img"
+        android:layout_toLeftOf="@+id/student_count_txt"
+        android:layout_toStartOf="@+id/student_count_txt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/student_count_txt"
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/school_lt"
+        android:visibility="gone"
+        android:orientation="vertical"/>
+
+</RelativeLayout>

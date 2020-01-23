@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/weekDaysPaddingBottom"
+    android:weightSum="7" >
+
+    <kheloindia.com.assessment.robotocalendar.font.RobotoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="dayOfWeek1"
+        android:text="Sun"
+        android:textAllCaps="true"
+        android:textColor="@color/dayOfWeekColor"
+        android:textSize="@dimen/dayOfWeekTextSize"
+        custom:dayOfWeekFont="@string/dayOfWeekFont" />
+
+    <kheloindia.com.assessment.robotocalendar.font.RobotoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="dayOfWeek2"
+        android:text="Mon"
+        android:textAllCaps="true"
+        android:textColor="@color/dayOfWeekColor"
+        android:textSize="@dimen/dayOfWeekTextSize"
+        custom:dayOfWeekFont="@string/dayOfWeekFont" />
+
+    <kheloindia.com.assessment.robotocalendar.font.RobotoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="dayOfWeek3"
+        android:text="Tue"
+        android:textAllCaps="true"
+        android:textColor="@color/dayOfWeekColor"
+        android:textSize="@dimen/dayOfWeekTextSize"
+        custom:dayOfWeekFont="@string/dayOfWeekFont" />
+
+    <kheloindia.com.assessment.robotocalendar.font.RobotoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="dayOfWeek4"
+        android:text="Wed"
+        android:textAllCaps="true"
+        android:textColor="@color/dayOfWeekColor"
+        android:textSize="@dimen/dayOfWeekTextSize"
+        custom:dayOfWeekFont="@string/dayOfWeekFont" />
+
+    <kheloindia.com.assessment.robotocalendar.font.RobotoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="dayOfWeek5"
+        android:text="Thu"
+        android:textAllCaps="true"
+        android:textColor="@color/dayOfWeekColor"
+        android:textSize="@dimen/dayOfWeekTextSize"
+        custom:dayOfWeekFont="@string/dayOfWeekFont" />
+
+    <kheloindia.com.assessment.robotocalendar.font.RobotoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="dayOfWeek6"
+        android:text="Fri"
+        android:textAllCaps="true"
+        android:textColor="@color/dayOfWeekColor"
+        android:textSize="@dimen/dayOfWeekTextSize"
+        custom:dayOfWeekFont="@string/dayOfWeekFont" />
+
+    <kheloindia.com.assessment.robotocalendar.font.RobotoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="dayOfWeek7"
+        android:text="Sat"
+        android:textAllCaps="true"
+        android:textColor="@color/dayOfWeekColor"
+        android:textSize="@dimen/dayOfWeekTextSize"
+        custom:dayOfWeekFont="@string/dayOfWeekFont" />
+
+</LinearLayout>

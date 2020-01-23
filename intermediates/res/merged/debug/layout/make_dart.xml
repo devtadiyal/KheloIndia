@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/tool_bar"
+        android:id="@+id/include" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle_curved_blue"
+        android:text="Rabindranath World School"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/include"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/school_tv"/>
+
+
+    <fitness365.com.fitness365.robotocalendar.RobotoCalendarView
+        android:id="@+id/robotoCalendarPicker"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/school_tv"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <!--<View-->
+        <!--android:layout_above="@+id/linear_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="#e8e8e8"-->
+        <!--/>-->
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text=""
+            android:background="@drawable/green_circle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filled up"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#65A245"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/red_circle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Didn't Fill"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#FE2B2D"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/light_blue_circle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Fill up"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

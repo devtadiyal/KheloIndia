@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                android:visibility="visible">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/sync_img"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/welcome_student_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Welcome Santhosh"
+                        android:textColor="#B8D3E4"
+                        android:textSize="@dimen/small_text_size" />
+
+                    <TextView
+                        android:id="@+id/school_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="6dp"
+                        android:drawableRight="@android:drawable/arrow_down_float"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="Rabindranath public sr sec school"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size" />
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/profile_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/person_black_i" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <!-- ********* 1st part ***************-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/agility_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:paddingRight="@dimen/dashboard_margin_small"
+                android:paddingLeft="@dimen/dashboard_margin_big"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dashboard_gradient"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:id="@+id/make_my_dart_layout"
+                    >
+
+                    <ImageView
+                        android:id="@+id/make_my_dart_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/make_my_dart_i" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/agility_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Make My DART"
+                    android:textColor="@color/black"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/speed_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:paddingRight="@dimen/dashboard_margin_big"
+                android:paddingLeft="@dimen/dashboard_margin_small"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/view_attendence_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dashboard_gradient"
+                    android:gravity="center"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/view_attendence_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/view_attendance_i" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="View Attendance"
+                    android:textColor="@color/black"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- ********* 2nd part ***************-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/endurance_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:paddingRight="@dimen/dashboard_margin_small"
+                android:paddingLeft="@dimen/dashboard_margin_big"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dashboard_gradient"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:id="@+id/view_dart_board_layout">
+
+                    <ImageView
+                        android:id="@+id/view_dart_board_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/view_dart_board_i" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="View DART Board"
+                    android:textColor="@color/black"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/flexibility_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:paddingRight="@dimen/dashboard_margin_big"
+                android:paddingLeft="@dimen/dashboard_margin_small"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/assessment_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dashboard_gradient"
+                    android:gravity="center"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/assessment_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/assessment_i" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/assessment_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Assessment"
+                    android:textColor="@color/black"
+                    android:singleLine="true"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- ********* 3rd part ***************-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/balance_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:paddingRight="@dimen/dashboard_margin_small"
+                android:paddingLeft="@dimen/dashboard_margin_big"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dashboard_gradient"
+                    android:gravity="center"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/active_connect_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/active_connect_i" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Active Connect"
+                    android:textColor="@color/black"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/hand_eye_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:paddingRight="@dimen/dashboard_margin_big"
+                android:paddingLeft="@dimen/dashboard_margin_small"
+                android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/blank_i"
+                        android:gravity="center"
+                        android:padding="15dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="invisible"
+                            android:src="@mipmap/ic_launcher" />
+
+                    </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Active Connect"
+                    android:textColor="@color/black"
+                    android:visibility="invisible"
+                    android:textSize="@dimen/text_size" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- *********** end ******************-->
+
+    </LinearLayout>
+
+<!--
+    android:layout_marginBottom="@dimen/dashboard_margin_small"
+    android:layout_marginLeft="@dimen/dashboard_margin_big"
+    android:layout_marginRight="@dimen/dashboard_margin_small"
+    android:layout_marginTop="@dimen/dashboard_margin_big"-->

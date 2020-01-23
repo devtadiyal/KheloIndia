@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:visibility="visible"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:text="@string/activity_log"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:id="@+id/activity_log_tv"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle_curved_blue"
+        android:text="Rabindranath World School"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/school_tv"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/student_radio_group_one">
+
+
+    <RadioButton
+        android:id="@+id/school_rb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="At School"
+        android:textColor="@color/text_color"
+        android:textSize="16sp"
+        />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On Leave"
+        android:textSize="16sp"
+        android:textColor="@color/text_color"
+        android:id="@+id/leave_rb"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Holiday"
+        android:textSize="16sp"
+        android:textColor="@color/text_color"
+        android:id="@+id/holiday_rb"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        />
+
+
+</RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/student_radio_group_two">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PTM"
+            android:textSize="16sp"
+            android:textColor="@color/text_color"
+            android:id="@+id/ptm_rb"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Training"
+            android:textSize="16sp"
+            android:textColor="@color/text_color"
+            android:id="@+id/training_rb"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            />
+    </RadioGroup>
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="20dp">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.60"
+            android:background="@drawable/rectangle">
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/class_spin"
+            style="@style/Spinner"
+
+            />
+</RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.40"
+            android:background="@drawable/rectangle">
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/period_spin"
+                style="@style/Spinner"
+
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/student_radio_group_three">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shape365"
+            android:textSize="16sp"
+            android:textColor="@color/text_color"
+            android:id="@+id/shape_rb"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TopSports"
+            android:textSize="16sp"
+            android:textColor="@color/text_color"
+            android:id="@+id/sports_rb"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            android:textSize="16sp"
+            android:textColor="@color/text_color"
+            android:id="@+id/other_rb"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            />
+    </RadioGroup>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rectangle">
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/technique_spin"
+                style="@style/Spinner"/>
+        </RelativeLayout>
+
+
+
+    <fitness365.com.fitness365.util.NonScrollListView
+        android:id="@+id/log_list_view"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/remark_edt"
+         android:textSize="18sp"
+         android:textColor="@color/black"
+         android:layout_marginRight="20dp"
+         android:layout_marginLeft="20dp"
+         android:layout_marginBottom="20dp"
+         android:hint="Remarks"
+         android:textColorHint="@color/text_color"
+         android:drawableLeft="@drawable/pencil_i"
+         android:drawablePadding="10dp"
+      />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/reset_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="#979797"
+            android:text="RESET"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/gradient"
+            android:text="SAVE"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/other_lt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/boys_edt"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/black"
+            android:hint="Boys"
+            android:textColorHint="@color/text_color"
+            android:drawableLeft="@drawable/boy_i"
+            android:drawablePadding="10dp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/girls_edt"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/black"
+            android:hint="Girls"
+            android:textColorHint="@color/text_color"
+            android:drawableLeft="@drawable/girl_i"
+            android:drawablePadding="10dp"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

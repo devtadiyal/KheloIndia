@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#13418C</color>
+    <color name="colorPrimaryDark">#212229</color>
+    <color name="colorAccent">#F2581B</color>
+    <color name="green">#65A245</color>
+    <color name="grey">#A3A3A3</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="text_color">#808080</color>
+    <color name="light_grey">#E2E2E2</color>
+    <color name="red">#e94c3d</color>
+    <color name="pale_grey">#979797</color>
+
+    <color name="lightBlack">#c6000000</color>
+
+
+    <color name="toolbar_items_bg_color">#66edeaea</color>
+
+
+
+
+    <!-- Fonts -->
+    <color name="monthTitleColor">#000000</color>
+    <color name="dayOfWeekColor">#000000</color>
+    <color name="dayOfMonthColor">#808080</color>
+    <color name="calendarBackgroundColor">#FFFFFF</color>
+
+</resources>

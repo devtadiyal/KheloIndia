@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\raw\\gun_sound_two.mp3",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\raw\\gun_sound_two.mp3"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\Users\\CT13\\.android\\build-cache\\9b9af2513fdd53ec262f615997e41af62b5b8a42\\output\\res\\raw\\gtm_analytics"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\raw\\whistle_sound.mp3",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\raw\\whistle_sound.mp3"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\raw\\whistle_start.mp3",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\raw\\whistle_start.mp3"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\raw\\beep_sound.mp3",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\raw\\beep_sound.mp3"
+    },
+    {
+        "merged": "D:\\Venkata\\f365_phase2\\intermediates\\res\\merged\\debug\\raw\\gun_sound.mp3",
+        "source": "D:\\Venkata\\f365_phase2\\app\\src\\main\\res\\raw\\gun_sound.mp3"
+    }
+]

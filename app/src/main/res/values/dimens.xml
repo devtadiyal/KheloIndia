@@ -1,0 +1,31 @@
+<resources>
+    <dimen name="fab_margin">32dp</dimen>
+    <dimen name="headings_size">20dp</dimen>
+    <dimen name="text_size">18dp</dimen>
+    <dimen name="small_text_size">14dp</dimen>
+
+    <dimen name="margin_value">0.2dp</dimen>
+    <dimen name="margin_top">8dp</dimen>
+    <dimen name="test_text_value">30dp</dimen>
+    <dimen name="image_size">70dp</dimen>
+
+    <!-- dateTitleLayout -->
+    <dimen name="dateTitlePaddingBottom">5dp</dimen>
+    <!-- weekLayout -->
+    <dimen name="weekDaysPaddingBottom">0dp</dimen>
+    <dimen name="dayOfWeekTextSize">14dp</dimen>
+    <!-- weekRowLayout -->
+    <dimen name="weekRowMinHeight">50dp</dimen>
+    <dimen name="dayOfMonthTextSize">14sp</dimen>
+    <dimen name="dayOfMonthMinWidth">50dp</dimen>
+    <dimen name="dayOfMonthMinHeight">0dp</dimen>
+    <dimen name="dayOfMonthPaddingBottom">0dp</dimen>
+    <dimen name="dayOfMonthImageSize">7dp</dimen>
+    <dimen name="dayOfMonthImageMarginTop">32dp</dimen>
+    <dimen name="sync_all">115dp</dimen>
+    <dimen name="sync_new">60dp</dimen>
+    <dimen name="subheading_size_in_detail_page">16sp</dimen>
+    <dimen name="heading_size">15sp</dimen>
+
+
+</resources>
