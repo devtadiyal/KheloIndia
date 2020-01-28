@@ -30,7 +30,7 @@ import kheloindia.com.assessment.R;
  * 
  * @author Marco Hernaiz Cao
  */
-public class RobotoTextView extends android.support.v7.widget.AppCompatTextView {
+public class RobotoTextView extends androidx.appcompat.widget.AppCompatTextView {
 
 	/**
 	 * Simple constructor to use when creating a widget from code.

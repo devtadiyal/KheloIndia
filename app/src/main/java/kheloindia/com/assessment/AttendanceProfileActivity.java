@@ -16,9 +16,9 @@ import android.os.Environment;
 import android.os.ParcelFileDescriptor;
 import android.preference.PreferenceManager;
 import android.provider.MediaStore;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -110,7 +110,7 @@ public class AttendanceProfileActivity extends AppCompatActivity implements View
         select_image_fab.setVisibility(View.GONE);
 
         if(Constant.SELFIE_FILE !=null){
-        Picasso.with(AttendanceProfileActivity.this).load(Constant.SELFIE_FILE ).into(profile_img);
+        Picasso.get().load(Constant.SELFIE_FILE ).into(profile_img);
        // Log.e("Constant.SELFIE_FILE ==>", "" + Constant.SELFIE_FILE );
         }
 
@@ -280,7 +280,7 @@ public class AttendanceProfileActivity extends AppCompatActivity implements View
 
         String fileName = imageFile.getName();
         Log.e("Base64Image==>", "" + Base64Image);
-        Picasso.with(AttendanceProfileActivity.this).load(imageFile).transform(new CircleTransformWhite()).into(profile_img);
+        Picasso.get().load(imageFile).transform(new CircleTransformWhite()).into(profile_img);
         Log.e("imageFile==>", "" + imageFile);
     }
 

@@ -80,7 +80,7 @@ public class TestAdapter extends BaseAdapter{
         String path = mContext.getResources().getString(R.string.image_base_url)+test.get(position).get("test_img_path")+test.get(position).get("test_image");
 
         Log.e(TAG,"path==> "+path);
-        Picasso.with(mContext).load(path).into(viewHolder.test_img);
+        Picasso.get().load(path).into(viewHolder.test_img);
 
         convertView.setOnClickListener(new View.OnClickListener() {
             @Override

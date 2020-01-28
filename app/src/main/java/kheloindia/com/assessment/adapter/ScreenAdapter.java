@@ -75,7 +75,7 @@ public class ScreenAdapter extends BaseAdapter {
         String path = mContext.getResources().getString(R.string.image_base_url)+screen.get(position).get("icon_path")+screen.get(position).get("icon_image_name");
 
         Log.e(TAG,"path==> "+path);
-        Picasso.with(mContext).load(path).into(viewHolder.test_img);
+        Picasso.get().load(path).into(viewHolder.test_img);
 
         convertView.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -29,11 +29,11 @@ import android.os.Environment;
 import android.os.ParcelFileDescriptor;
 import android.preference.PreferenceManager;
 import android.provider.MediaStore;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.content.LocalBroadcastManager;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -451,7 +451,7 @@ public class AttendanceGeofencingActivity extends AppCompatActivity implements V
         if (imagePath.length()>1){
             String path = getApplicationContext().getResources().getString(R.string.image_base_url)+imagePath;
             Log.e(TAG,"path==> "+path);
-            Picasso.with(ctx).load(path).into(profile_img);
+            Picasso.get().load(path).into(profile_img);
         }
 
 

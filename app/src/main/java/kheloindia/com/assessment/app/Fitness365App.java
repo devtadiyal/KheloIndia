@@ -9,8 +9,8 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 import android.os.SystemClock;
-import android.support.multidex.MultiDex;
-import android.support.multidex.MultiDexApplication;
+import androidx.multidex.MultiDex;
+import androidx.multidex.MultiDexApplication;
 
 import java.util.Calendar;
 
@@ -32,8 +32,8 @@ public class Fitness365App extends MultiDexApplication {
     @Override
     public void onCreate() {
         super.onCreate();
-        mInstance = this;
         MultiDex.install(this);
+        mInstance = this;
         sApplication = this;
         IntentFilter intentFilter = new IntentFilter();
         intentFilter.addAction(ConnectivityManager.CONNECTIVITY_ACTION);

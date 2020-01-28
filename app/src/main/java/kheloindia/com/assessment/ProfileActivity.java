@@ -25,15 +25,13 @@ import android.os.Environment;
 import android.os.ParcelFileDescriptor;
 import android.preference.PreferenceManager;
 import android.provider.MediaStore;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.text.Editable;
-import android.text.InputFilter;
-import android.text.Spanned;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
@@ -48,7 +46,6 @@ import android.widget.Toast;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.Base64;
-import com.squareup.picasso.LruCache;
 import com.squareup.picasso.NetworkPolicy;
 import com.squareup.picasso.Picasso;
 
@@ -177,9 +174,11 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
                 }
 
                 @Override
-                public void onError() {
+                public void onError(Exception e) {
                     // Utility.rotateFabBackward(select_image_fab);
+
                 }
+
             });
         }
 
@@ -837,7 +836,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
 
         String fileName = imageFile.getName();
         Log.e("Base64Image==>", "" + Base64Image);
-        Picasso.with(ProfileActivity.this).load(imageFile).transform(new CircleTransformWhite()).into(profile_img);
+        Picasso.get().load(imageFile).transform(new CircleTransformWhite()).into(profile_img);
         Log.e("imageFile==>", "" + imageFile);
 
         // File initialFile = new File("src/main/resources/sample.txt");
@@ -897,9 +896,12 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
                         }
 
                         @Override
-                        public void onError() {
+                        public void onError(Exception e) {
                             Utility.rotateFabBackward(select_image_fab);
+
                         }
+
+
                     });
                     SharedPreferences.Editor e = sp.edit();
                     e.putString("profile_pic_url",responseBody.getMessage());

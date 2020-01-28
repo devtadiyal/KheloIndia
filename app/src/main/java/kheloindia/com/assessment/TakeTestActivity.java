@@ -11,13 +11,13 @@ import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v4.content.LocalBroadcastManager;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -331,7 +331,7 @@ public class TakeTestActivity extends AppCompatActivity implements View.OnClickL
 
         String path = getString(R.string.image_base_url) + Constant.SCHOOL_IMAGE_PATH;
 
-        Picasso.with(TakeTestActivity.this).load(path).into(school_big_i);
+        Picasso.get().load(path).into(school_big_i);
 
         //  Picasso.with(TakeTestActivity.this).load(path).transform(new CircleTransformWhite()).into(school_big_i);
         Typeface font_semi_bold = Typeface.createFromAsset(getAssets(),
@@ -478,10 +478,15 @@ public class TakeTestActivity extends AppCompatActivity implements View.OnClickL
             case R.id.sync_new_tv:
             case R.id.sync_new_img:
                 if (Utility.checkForSchoolDeActivated(this, schoolId))
+                {
+                    System.out.println("TAD IF");
                     Utility.showSchoolDeactivatedDialog(this);
+                }
                 else {
+                    System.out.println("TAD ELSE");
                     forRefreshing = false;
                     showSyncDialog();
+
                 }
                 break;
 

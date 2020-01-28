@@ -17,10 +17,10 @@ import android.os.Environment;
 import android.os.ParcelFileDescriptor;
 import android.preference.PreferenceManager;
 import android.provider.MediaStore;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -35,14 +35,11 @@ import java.io.FileDescriptor;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Random;
 
 import kheloindia.com.assessment.model.ProfileImageModel;
-import kheloindia.com.assessment.model.StudentUserMasterModel;
-import kheloindia.com.assessment.util.DBManager;
 import kheloindia.com.assessment.util.ProgressDialogUtility;
 import kheloindia.com.assessment.util.ResponseListener;
 import kheloindia.com.assessment.util.Utility;
@@ -535,7 +532,7 @@ public class ProfileStudentActivity  extends AppCompatActivity implements View.O
 
         String fileName = imageFile.getName();
         Log.e("Base64Image==>",""+Base64Image);
-        Picasso.with(ProfileStudentActivity.this).load(imageFile).transform(new CircleTransformWhite()).into(profile_img);
+        Picasso.get().load(imageFile).transform(new CircleTransformWhite()).into(profile_img);
         Log.e("imageFile==>",""+imageFile);
             /*  Picasso.with(ApplicationForm4Activity.this).load(imageFile).
                 transform(new CircleTransformWhite(true)).into(student_img);*/

@@ -12,9 +12,9 @@ import android.content.pm.PackageManager;
 import android.graphics.Typeface;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.telephony.TelephonyManager;
 import android.text.InputType;
@@ -28,13 +28,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.security.KeyStore;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
-
-import javax.crypto.Cipher;
 
 import kheloindia.com.assessment.model.SchoolsMasterModel;
 import kheloindia.com.assessment.model.UserModel;
